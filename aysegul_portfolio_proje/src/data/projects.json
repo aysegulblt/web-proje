@@ -1,0 +1,109 @@
+[
+  {
+    "id": "edutrack",
+    "titleTr": "EduTrack – Öğrenci Takip Sistemi",
+    "titleEn": "EduTrack – Student Tracking System",
+    "descriptionTr": "Öğrenciler için burs, etkinlik ve proje takibi sağlayan masaüstü uygulaması. Java Swing kullanarak kullanıcı arayüzü tasarladım ve JSON tabanlı veri yönetimi gerçekleştirdim. Rol bazlı ekranlar ve başvuru akışları içerir.",
+    "descriptionEn": "Desktop application for students to track scholarships, events, and projects. Developed user interface with Java Swing and implemented JSON-based data management with role-based panels and application workflows.",
+    "image": "/projects/edutrack.png",
+    "technologies": [
+      "Java",
+      "Swing",
+      "JSON",
+      "OOP"
+    ],
+    "category": "Desktop",
+    "githubUrl": "https://github.com/aysegulblt/edutrack-student-management-system",
+    "demoUrl": "",
+    "isFeatured": true
+  },
+  {
+    "id": "tubitak-2209a",
+    "titleTr": "TÜBİTAK 2209-A – Geri Dönüşüm Eğitimi Projesi",
+    "titleEn": "TÜBİTAK 2209-A – Recycling Education Project",
+    "descriptionTr": "İlköğretim öğrencilerinde geri dönüşüm bilincini artırmaya yönelik eğitim ve araştırma projesi. Eğitim içeriklerinin hazırlanması, pilot uygulama süreci ve veri analizi çalışmalarında aktif rol alıyorum.",
+    "descriptionEn": "Educational research project aimed at increasing recycling awareness among primary school students. Actively contributing to content creation, pilot implementation, and data analysis.",
+    "image": "/projects/tubitak.png",
+    "technologies": [
+      "Research",
+      "Education",
+      "Data Analysis"
+    ],
+    "category": "Research",
+    "githubUrl": "",
+    "demoUrl": "",
+    "isFeatured": true
+  },
+  {
+    "id": "algoritma-analizi",
+    "titleTr": "Sıralama Algoritmaları Performans Analizi",
+    "titleEn": "Sorting Algorithms Performance Analysis",
+    "descriptionTr": "BLG309 Algoritma Analizi dersi dönem projesi. Insertion Sort, Quick Sort, Merge Sort ve Heap Sort algoritmalarının farklı veri dağılımları altında performans karşılaştırması yapıldı. C++ ile geliştirilen proje, Big-O teorik analizlerini deneysel verilerle doğrulamaktadır.",
+    "descriptionEn": "BLG309 Algorithm Analysis term project. Comparative performance analysis of sorting algorithms under different data distributions. Validates Big-O theoretical analyses with experimental data.",
+    "image": "/projects/algorithms.png",
+    "technologies": [
+      "C++",
+      "Algorithms",
+      "Big-O Analysis",
+      "Performance Testing"
+    ],
+    "category": "Academic",
+    "githubUrl": "",
+    "demoUrl": "",
+    "isFeatured": true
+  },
+  {
+    "id": "mikroislemci-saat",
+    "titleTr": "8086 Dijital Sistem Saati",
+    "titleEn": "8086 Digital System Clock",
+    "descriptionTr": "BLG303 Mikroişlemciler dersi dönem projesi. 8086 mikroişlemci mimarisi kullanılarak Assembly dilinde gerçek zamanlı dijital saat geliştirildi. BIOS kesmeleri ile sistem saati okunarak, Hex-ASCII dönüşümü ve Lookup Table yöntemiyle ekrana yazdırıldı.",
+    "descriptionEn": "BLG303 Microprocessors term project. Real-time digital clock developed in Assembly using 8086 architecture. Reads system time via BIOS interrupts, performs Hex-ASCII conversion using Lookup Table method.",
+    "image": "/projects/microprocessor.png",
+    "technologies": [
+      "Assembly",
+      "8086",
+      "EMU8086",
+      "Low-Level Programming"
+    ],
+    "category": "Academic",
+    "githubUrl": "",
+    "demoUrl": "",
+    "isFeatured": true
+  },
+  {
+    "id": "cpu-scheduling",
+    "titleTr": "CPU Planlama Algoritmaları Simülasyonu",
+    "titleEn": "CPU Scheduling Algorithms Simulation",
+    "descriptionTr": "BLG305 İşletim Sistemleri dersi dönem projesi. SJF (Shortest Job First) ve Round Robin algoritmalarının C++ ile simülasyonu. Süreçlerin Completion Time, Turnaround Time ve Waiting Time metrikleri hesaplanarak algoritmalar performans ve adalet kriterleri açısından karşılaştırıldı.",
+    "descriptionEn": "BLG305 Operating Systems term project. C++ simulation of SJF (Shortest Job First) and Round Robin CPU scheduling algorithms. Compares algorithms based on Completion Time, Turnaround Time, and Waiting Time metrics for performance and fairness analysis.",
+    "image": "/projects/cpu-scheduling.png",
+    "technologies": [
+      "C++",
+      "Operating Systems",
+      "CPU Scheduling",
+      "Algorithm Simulation"
+    ],
+    "category": "Academic",
+    "githubUrl": "",
+    "demoUrl": "",
+    "isFeatured": true
+  },
+  {
+    "id": "rumelicare",
+    "titleTr": "RumeliCare Klinik Yönetim Sistemi",
+    "titleEn": "RumeliCare Clinic Management System",
+    "descriptionTr": "BLG307 Veritabanı Yönetim Sistemleri dersi dönem projesi. Hasta kayıtları, randevu yönetimi, reçete takibi ve faturalandırma işlemlerini kapsayan kapsamlı bir RDBMS tasarımı. Stored Procedures ile randevu çakışma kontrolü, ilaç-alerji güvenlik denetimi ve otomatik faturalandırma; Triggers ile veri bütünlüğü sağlanmıştır. 3NF normalizasyon standartlarına uygun tasarım.",
+    "descriptionEn": "BLG307 Database Management Systems term project. Comprehensive RDBMS design covering patient records, appointment management, prescription tracking, and billing. Implemented appointment conflict prevention, drug-allergy safety checks, and automatic invoicing using Stored Procedures. Data integrity ensured via Triggers. Designed to 3NF normalization standards.",
+    "image": "/projects/rumelicare.png",
+    "technologies": [
+      "MySQL",
+      "Stored Procedures",
+      "Triggers",
+      "Database Design"
+    ],
+    "category": "Academic",
+    "githubUrl": "",
+    "demoUrl": "",
+    "isFeatured": true
+  }
+]

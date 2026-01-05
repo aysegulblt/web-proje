@@ -1,0 +1,17 @@
+{
+  "name": "Ayşegül Bulut",
+  "titleTr": "Bilgisayar Mühendisliği Öğrencisi & Frontend Geliştirici Adayı",
+  "titleEn": "Computer Engineering Student & Aspiring Frontend Developer",
+  "bioTr": "Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Frontend geliştirme, UI/UX tasarım ve kullanıcı odaklı arayüzler üzerine çalışıyorum. Akademik projeler, sosyal sorumluluk çalışmaları ve gönüllü kulüp faaliyetleriyle teknik ve sosyal becerilerimi birlikte geliştirmeyi hedefliyorum.",
+  "bioEn": "I am a 3rd-year Computer Engineering student focused on frontend development and UI/UX design. I aim to combine technical skills with social responsibility through academic projects, volunteer work, and student organizations.",
+  "avatar": "/profile.jpg",
+  "email": "aysegulbuluts53@gmail.com",
+  "phone": "+90 555 165 52 53",
+  "locationTr": "İstanbul, Türkiye",
+  "locationEn": "Istanbul, Turkey",
+  "social": {
+    "github": "https://github.com/aysegulblt",
+    "linkedin": "https://www.linkedin.com/in/ay%C5%9Feg%C3%BCl-bulut-740291351/"
+  },
+  "cvFile": "/cv/Aysegul_BULUT_CV.pdf"
+}

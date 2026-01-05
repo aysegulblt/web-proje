@@ -1,0 +1,75 @@
+[
+  {
+    "categoryTr": "Frontend & Web",
+    "categoryEn": "Frontend & Web",
+    "items": [
+      {
+        "name": "HTML / CSS",
+        "level": 85,
+        "icon": "code"
+      },
+      {
+        "name": "JavaScript",
+        "level": 70,
+        "icon": "code"
+      },
+      {
+        "name": "React",
+        "level": 75,
+        "icon": "react"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 80,
+        "icon": "palette"
+      },
+      {
+        "name": "Vite",
+        "level": 70,
+        "icon": "bolt"
+      }
+    ]
+  },
+  {
+    "categoryTr": "Programlama Dilleri",
+    "categoryEn": "Programming Languages",
+    "items": [
+      {
+        "name": "Java",
+        "level": 60,
+        "icon": "coffee"
+      },
+      {
+        "name": "C / C++",
+        "level": 45,
+        "icon": "code"
+      },
+      {
+        "name": "Python",
+        "level": 40,
+        "icon": "code"
+      }
+    ]
+  },
+  {
+    "categoryTr": "Araçlar & Diğer",
+    "categoryEn": "Tools & Other",
+    "items": [
+      {
+        "name": "Git / GitHub",
+        "level": 70,
+        "icon": "git-branch"
+      },
+      {
+        "name": "VS Code",
+        "level": 80,
+        "icon": "terminal"
+      },
+      {
+        "name": "SQL (Temel)",
+        "level": 55,
+        "icon": "database"
+      }
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Ayşegül Bulut",
+    "title": "Bilgisayar Mühendisliği Öğrencisi & Frontend Geliştirici Adayı",
+    "typingRoles": [
+      "Frontend Geliştirici",
+      "Bilgisayar Mühendisi",
+      "UI/UX Meraklısı",
+      "TÜBİTAK Araştırmacısı"
+    ],
+    "description": "Modern web teknolojileri ve kullanıcı deneyimi odaklı arayüz geliştirme alanında çalışmalar yürütmekteyim. Akademik projeler ve araştırma faaliyetleri aracılığıyla teknik yetkinliklerimi sürekli geliştirmekteyim.",
+    "downloadCV": "CV İndir",
+    "viewProjects": "Projeleri Gör",
+    "hireMe": "Bana Ulaş",
+    "location": "Konum:",
+    "stats": {
+      "experience": "Yıl Deneyim",
+      "projects": "Tamamlanan Proje",
+      "skills": "Yetenek",
+      "activities": "Kulüp & Etkinlik"
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "p1": "İstanbul Rumeli Üniversitesi Bilgisayar Mühendisliği Bölümü 3. sınıf öğrencisiyim. Akademik çalışmalarımı frontend geliştirme, kullanıcı arayüzü tasarımı ve web teknolojileri alanlarında yoğunlaştırmış bulunmaktayım.",
+    "p2": "Yazılım geliştirme süreçlerinde temiz kod prensipleri ve kullanıcı odaklı tasarım anlayışını benimsemekteyim. Ekip çalışmalarında etkin iletişim ve sorumluluk bilincini ön planda tutmaktayım.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend Geliştirme",
+        "value": "React • Tailwind • Vite"
+      },
+      "uiux": {
+        "title": "UI / UX Tasarım",
+        "value": "User Research • Prototyping"
+      },
+      "academic": {
+        "title": "Akademik Projeler",
+        "value": "TÜBİTAK 2209-A"
+      },
+      "volunteer": {
+        "title": "Gönüllülük & Kulüp",
+        "value": "5+ Aktif Görev"
+      }
+    },
+    "education": {
+      "title": "Eğitim",
+      "items": [
+        {
+          "school": "İstanbul Rumeli Üniversitesi",
+          "department": "Bilgisayar Mühendisliği",
+          "years": "2023 - 2027",
+          "description": "Frontend geliştirme, yazılım temelleri, algoritma ve veri yapıları, nesne yönelimli programlama ve web teknolojileri üzerine yoğunlaşmaktayım."
+        },
+        {
+          "school": "Dilnihat Özyeğin Anadolu Lisesi",
+          "department": "Lise",
+          "years": "Mezun",
+          "description": "Akademik ve sosyal faaliyetlerde aktif rol aldım; sanat ve topluluk etkinliklerine katıldım."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Deneyim & Projeler",
+      "items": [
+        {
+          "role": "Proje Geliştirici",
+          "company": "EduTrack – Öğrenci Takip Sistemi",
+          "years": "2024",
+          "description": "Java Swing ile masaüstü uygulama geliştirdim. Burs, etkinlik ve proje takibi için arayüz tasarladım ve JSON veri yönetimi gerçekleştirdim."
+        },
+        {
+          "role": "Proje Yürütücüsü / Araştırmacı",
+          "company": "TÜBİTAK 2209-A Projesi",
+          "years": "2024 - Devam",
+          "description": "İlköğretim öğrencilerinde geri dönüşüm bilinci geliştirmeye yönelik eğitim projesi. İçerik hazırlama, uygulama ve veri analizi."
+        }
+      ]
+    },
+    "clubs": {
+      "title": "Kulüp & Topluluk Faaliyetleri",
+      "items": [
+        {
+          "role": "Eğitim Ekibi Üyesi",
+          "organization": "Teknofest",
+          "description": "Eğitim ekibinde aktif görev"
+        },
+        {
+          "role": "Kulüp Başkanı",
+          "organization": "Çevre Kulübü",
+          "description": "Çevre bilinci etkinlikleri organizasyonu"
+        },
+        {
+          "role": "Sosyal Faaliyet Sorumlusu",
+          "organization": "İyiliğin Geleceği",
+          "description": "Sosyal sorumluluk projeleri koordinasyonu"
+        },
+        {
+          "role": "Takım Üyesi",
+          "organization": "Su Sporları Kulübü",
+          "description": "Kürek takımı üyesi"
+        },
+        {
+          "role": "Üye",
+          "organization": "Kütüphane Kulübü",
+          "description": "Okuma ve kültür etkinlikleri"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "İlgi Alanları & Hobiler",
+      "items": [
+        "Denizde Kürek Çekmek",
+        "Basketbol",
+        "Müzik Dinlemek",
+        "Kitap Okumak",
+        "Resim Çizmek",
+        "Şarkı Söylemek",
+        "Dans Etmek",
+        "Folklor & Koro"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "subtitle": "Kategorilere ayrılmış teknik yeteneklerim ve seviye göstergeleri."
+  },
+  "projects": {
+    "title": "Projeler",
+    "subtitle": "Projelerimi filtreleyebilir, karta tıklayıp detayları görebilirsin.",
+    "all": "Tümü",
+    "technologies": "Teknolojiler",
+    "demo": "Canlı Demo",
+    "featured": "Öne Çıkan",
+    "categories": {
+      "Desktop": "Masaüstü",
+      "Research": "Araştırma",
+      "Academic": "Akademik"
+    }
+  },
+  "contact": {
+    "title": "Benimle İletişime Geç",
+    "subtitle": "Staj fırsatları, iş birlikleri veya sadece tanışmak için bana mesaj gönderebilirsin. Mesajını gönderince e-posta uygulaman açılacak.",
+    "name": "İsim",
+    "email": "E-posta",
+    "subject": "Konu",
+    "timeline": "Zaman çizelgesi",
+    "projectDetails": "Proje detayları...",
+    "message": "Mesaj",
+    "send": "Gönder",
+    "emailLabel": "E-posta:",
+    "phoneLabel": "Telefon:",
+    "addressLabel": "Konum:",
+    "portfolioContact": "Portfolyo İletişim",
+    "successMessage": "Mesajınız hazırlandı! E-posta uygulamanız açılacak.",
+    "requiredField": "Bu alan zorunludur",
+    "invalidEmail": "Geçerli bir e-posta adresi giriniz"
+  }
+}

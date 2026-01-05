@@ -1,60 +1,212 @@
 // src/components/ContactSection.jsx
-export const ContactSection = ({ lang }) => {
-  const isTr = lang === "tr";
+import { useState } from "react";
+import { useLanguage } from "../context/LanguageContext";
+import profile from "../data/profile.json";
+import { CheckCircle, Github, Linkedin } from "lucide-react";
+
+const ContactSection = () => {
+  const { t } = useLanguage();
+  const [submitted, setSubmitted] = useState(false);
+  const [errors, setErrors] = useState({});
+
+  const email = profile.email || "aysegul.bulut@stu.rumeli.edu.tr";
+  const linkedIn = profile.social?.linkedin || "";
+  const github = profile.social?.github || "";
+
+  const validateForm = (form) => {
+    const newErrors = {};
+    const name = form.get("name")?.toString().trim();
+    const mail = form.get("email")?.toString().trim();
+    const message = form.get("message")?.toString().trim();
+
+    if (!name) newErrors.name = t("contact.requiredField");
+    if (!mail) {
+      newErrors.email = t("contact.requiredField");
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
+      newErrors.email = t("contact.invalidEmail");
+    }
+    if (!message) newErrors.message = t("contact.requiredField");
+
+    return newErrors;
+  };
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+
+    // Validasyon
+    const validationErrors = validateForm(form);
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
+
+    setErrors({});
+
+    const name = form.get("name") ?? "";
+    const mail = form.get("email") ?? "";
+    const subject = form.get("subject") ?? "";
+    const timeline = form.get("timeline") ?? "";
+    const message = form.get("message") ?? "";
+
+    const body = `
+${t("contact.name")}: ${name}
+${t("contact.email")}: ${mail}
+${t("contact.timeline")}: ${timeline}
+
+${t("contact.message")}:
+${message}
+    `.trim();
+
+    const mailto = `mailto:${email}?subject=${encodeURIComponent(
+      String(subject || t("contact.portfolioContact"))
+    )}&body=${encodeURIComponent(body)}`;
+
+    // Başarı mesajı göster
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 4000);
+
+    // Mailto aç
+    window.location.href = mailto;
+  };
+
+  const inputBaseClass = `bg-transparent border rounded-lg px-4 py-3 text-sm outline-none
+    focus:ring-2 focus:ring-[#91BADB]/50 focus:border-[#91BADB]/70 transition-colors`;
 
   return (
-    <section id="contact" className="container py-20 space-y-8">
-      <h2 className="text-3xl font-semibold text-center mb-4">
-        {isTr ? "Benimle İletişime Geç" : "Contact Me"}
-      </h2>
+    <section id="contact" className="container py-24 space-y-10">
+      {/* Başlık */}
+      <div className="text-center space-y-3">
+        <h2 className="text-3xl sm:text-4xl font-semibold">
+          {t("contact.title")}
+        </h2>
+        <div className="mx-auto w-20 h-[2px] bg-[#91BADB] rounded-full" />
+      </div>
 
-      <p className="text-center text-sm text-foreground/70 max-w-xl mx-auto">
-        {isTr
-          ? "Freelance projeler, staj fırsatları veya sadece tanışmak için bana mesaj gönderebilirsin."
-          : "Feel free to reach out for freelance work, internship opportunities, or just to say hi."}
+      <p className="text-center text-sm sm:text-base text-foreground/70 max-w-2xl mx-auto leading-relaxed">
+        {t("contact.subtitle")}
       </p>
 
-      <div className="max-w-3xl mx-auto">
-        <form className="grid gap-4 md:grid-cols-2 bg-card/60 border border-border/60 rounded-xl p-6 card-hover">
+      {/* Başarı Mesajı */}
+      {submitted && (
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-green-500/10 border border-green-500/30 text-green-600 dark:text-green-400">
+            <CheckCircle className="w-5 h-5 flex-shrink-0" />
+            <p className="text-sm">{t("contact.successMessage")}</p>
+          </div>
+        </div>
+      )}
+
+      <div className="max-w-3xl mx-auto space-y-6">
+        {/* Form */}
+        <form
+          onSubmit={onSubmit}
+          className="grid gap-4 md:grid-cols-2 bg-card/60 border border-border/60 rounded-2xl p-6 card-hover"
+          noValidate
+        >
+          {/* İsim */}
+          <div className="space-y-1">
+            <input
+              name="name"
+              type="text"
+              placeholder={t("contact.name")}
+              className={`${inputBaseClass} w-full ${errors.name ? "border-red-500/70" : "border-border/60"
+                }`}
+            />
+            {errors.name && (
+              <p className="text-xs text-red-500">{errors.name}</p>
+            )}
+          </div>
+
+          {/* E-posta */}
+          <div className="space-y-1">
+            <input
+              name="email"
+              type="email"
+              placeholder={t("contact.email")}
+              className={`${inputBaseClass} w-full ${errors.email ? "border-red-500/70" : "border-border/60"
+                }`}
+            />
+            {errors.email && (
+              <p className="text-xs text-red-500">{errors.email}</p>
+            )}
+          </div>
+
+          {/* Konu */}
           <input
+            name="subject"
             type="text"
-            placeholder={isTr ? "İsim" : "Name"}
-            className="bg-transparent border border-border/60 rounded-md px-3 py-2 text-sm outline-none focus:border-[#91BADB]"
+            placeholder={t("contact.subject")}
+            className={`${inputBaseClass} border-border/60`}
           />
+
+          {/* Timeline */}
           <input
-            type="email"
-            placeholder={isTr ? "E-posta" : "Email"}
-            className="bg-transparent border border-border/60 rounded-md px-3 py-2 text-sm outline-none focus:border-[#91BADB]"
-          />
-          <input
+            name="timeline"
             type="text"
-            placeholder={isTr ? "Konu" : "Subject"}
-            className="bg-transparent border border-border/60 rounded-md px-3 py-2 text-sm outline-none focus:border-[#91BADB]"
+            placeholder={t("contact.timeline")}
+            className={`${inputBaseClass} border-border/60`}
           />
-          <input
-            type="text"
-            placeholder={isTr ? "Zaman çizelgesi" : "Timeline"}
-            className="bg-transparent border border-border/60 rounded-md px-3 py-2 text-sm outline-none focus:border-[#91BADB]"
-          />
-          <textarea
-            placeholder={
-              isTr ? "Proje detayları..." : "Project details..."
-            }
-            className="md:col-span-2 bg-transparent border border-border/60 rounded-md px-3 py-2 text-sm outline-none focus:border-[#91BADB] min-h-[120px]"
-          />
-          <div className="md:col-span-2 flex justify-end">
+
+          {/* Mesaj */}
+          <div className="md:col-span-2 space-y-1">
+            <textarea
+              name="message"
+              placeholder={t("contact.projectDetails")}
+              className={`${inputBaseClass} w-full min-h-[140px] resize-none ${errors.message ? "border-red-500/70" : "border-border/60"
+                }`}
+            />
+            {errors.message && (
+              <p className="text-xs text-red-500">{errors.message}</p>
+            )}
+          </div>
+
+          <div className="md:col-span-2 flex flex-col sm:flex-row items-center justify-between gap-3">
+            {/* Sosyal linkler */}
+            <div className="flex items-center gap-2 text-xs">
+              {linkedIn && (
+                <a
+                  href={linkedIn}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-1 rounded-full border border-border/60 hover:bg-card/80 text-foreground/80 transition-colors inline-flex items-center gap-1.5"
+                >
+                  <Linkedin className="w-3.5 h-3.5" />
+                  LinkedIn
+                </a>
+              )}
+
+              {github && (
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-1 rounded-full border border-border/60 hover:bg-card/80 text-foreground/80 transition-colors inline-flex items-center gap-1.5"
+                >
+                  <Github className="w-3.5 h-3.5" />
+                  GitHub
+                </a>
+              )}
+            </div>
+
             <button
               type="submit"
-              className="cusmic-button bg-[#91BADB] text-slate-900 hover:shadow-[0_0_18px_rgba(145,186,219,0.8)]"
+              className="cosmic-button bg-[#91BADB] text-slate-900 hover:shadow-[0_0_18px_rgba(145,186,219,0.8)]"
             >
-              {isTr ? "Gönder" : "Send"}
+              {t("contact.send")}
             </button>
           </div>
         </form>
 
-        <p className="mt-6 text-center text-xs text-foreground/60">
-          {isTr ? "E-posta:" : "Email:"}{" "}
-          <span className="text-[#91BADB]">aysegul.bulut@stu.rumeli.com</span>
+        {/* Email satırı */}
+        <p className="text-center text-xs text-foreground/60">
+          {t("contact.emailLabel")}{" "}
+          <a
+            className="text-[#91BADB] hover:underline"
+            href={`mailto:${email}`}
+          >
+            {email}
+          </a>
         </p>
       </div>
     </section>

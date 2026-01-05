@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Aysegul Bulut",
+    "title": "Computer Engineering Student & Aspiring Frontend Developer",
+    "typingRoles": [
+      "Frontend Developer",
+      "Computer Engineer",
+      "UI/UX Enthusiast",
+      "TÜBİTAK Researcher"
+    ],
+    "description": "I am conducting studies in interface development with a focus on modern web technologies and user experience. I continuously enhance my technical competencies through academic projects and research activities.",
+    "downloadCV": "Download CV",
+    "viewProjects": "View Projects",
+    "hireMe": "Contact Me",
+    "location": "Location:",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "skills": "Skills",
+      "activities": "Clubs & Activities"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a 3rd-year Computer Engineering student at Istanbul Rumeli University. My academic focus areas include frontend development, user interface design, and web technologies.",
+    "p2": "I embrace clean code principles and user-centered design approaches in software development processes. In team collaborations, I prioritize effective communication and a strong sense of responsibility.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend Development",
+        "value": "React • Tailwind • Vite"
+      },
+      "uiux": {
+        "title": "UI / UX Design",
+        "value": "User Research • Prototyping"
+      },
+      "academic": {
+        "title": "Academic Projects",
+        "value": "TÜBİTAK 2209-A"
+      },
+      "volunteer": {
+        "title": "Volunteering & Clubs",
+        "value": "5+ Active Roles"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "school": "Istanbul Rumeli University",
+          "department": "Computer Engineering",
+          "years": "2023 - 2027",
+          "description": "Focusing on frontend development, software fundamentals, algorithms, data structures, OOP, and web technologies."
+        },
+        {
+          "school": "Dilnihat Özyeğin Anatolian High School",
+          "department": "High School",
+          "years": "Graduated",
+          "description": "Took active roles in academic and social activities; participated in art and community events."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience & Projects",
+      "items": [
+        {
+          "role": "Project Developer",
+          "company": "EduTrack – Student Tracking System",
+          "years": "2024",
+          "description": "Developed a desktop application with Java Swing. Designed UI for tracking scholarships, events, and projects with JSON data management."
+        },
+        {
+          "role": "Project Leader / Researcher",
+          "company": "TÜBİTAK 2209-A Project",
+          "years": "2024 - Present",
+          "description": "Educational project to develop recycling awareness in primary school students. Content creation, implementation, and data analysis."
+        }
+      ]
+    },
+    "clubs": {
+      "title": "Clubs & Community Activities",
+      "items": [
+        {
+          "role": "Education Team Member",
+          "organization": "Teknofest",
+          "description": "Active role in education team"
+        },
+        {
+          "role": "Club President",
+          "organization": "Environment Club",
+          "description": "Organizing environmental awareness events"
+        },
+        {
+          "role": "Social Activity Coordinator",
+          "organization": "Future of Kindness",
+          "description": "Coordinating social responsibility projects"
+        },
+        {
+          "role": "Team Member",
+          "organization": "Water Sports Club",
+          "description": "Rowing team member"
+        },
+        {
+          "role": "Member",
+          "organization": "Library Club",
+          "description": "Reading and cultural activities"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Interests & Hobbies",
+      "items": [
+        "Rowing",
+        "Basketball",
+        "Listening to Music",
+        "Reading Books",
+        "Drawing",
+        "Singing",
+        "Dancing",
+        "Folklore & Choir"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical skills grouped by category with level indicators."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Filter my projects and click a card to view details.",
+    "all": "All",
+    "technologies": "Technologies",
+    "demo": "Live Demo",
+    "featured": "Featured",
+    "categories": {
+      "Desktop": "Desktop",
+      "Research": "Research",
+      "Academic": "Academic"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Feel free to reach out for internships, collaborations, or just to say hi. When you submit, your email app will open.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "timeline": "Timeline",
+    "projectDetails": "Project details...",
+    "message": "Message",
+    "send": "Send",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "addressLabel": "Location:",
+    "portfolioContact": "Portfolio Contact",
+    "successMessage": "Your message is ready! Your email app will open.",
+    "requiredField": "This field is required",
+    "invalidEmail": "Please enter a valid email address"
+  }
+}
