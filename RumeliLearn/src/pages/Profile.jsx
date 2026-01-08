@@ -265,7 +265,7 @@ function Profile() {
                                                 {course.progress >= 100 ? (
                                                     <span className="text-xs font-medium text-green-600 bg-green-50 px-3 py-1 rounded-full">Tamamlandı ✓</span>
                                                 ) : (
-                                                    <span className="text-xs font-medium text-violet-600 bg-violet-50 px-3 py-1 rounded-full">Devam Et →</span>
+                                                    <span className="text-xs font-medium text-violet-600 bg-violet-50 px-3 py-1 rounded-full">Devam Ediyor</span>
                                                 )}
                                             </div>
                                         ))
