@@ -115,7 +115,7 @@ function Footer() {
                 {/* Bottom */}
                 <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-gray-400 text-sm flex items-center gap-1">
-                        &copy; {currentYear} Öğreniyor. Made with <Heart size={14} className="text-red-500 fill-current" /> in İstanbul
+                        &copy; {currentYear} Öğreniyor. Tüm hakları saklıdır. <span className="mx-1">•</span> React ile geliştirildi
                     </p>
                     <div className="flex items-center gap-6 text-sm">
                         <a href="#" className="text-gray-400 hover:text-violet-600 transition-colors">Gizlilik Politikası</a>
