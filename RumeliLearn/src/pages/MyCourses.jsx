@@ -65,7 +65,8 @@ function MyCourses() {
                     <p className="text-gray-500 mt-1">{enrolledCourses.length} kursa kayıtlısınız</p>
                 </div>
 
-                <div className="flex overflow-x-auto pb-4 md:pb-0 md:flex-wrap gap-3 mb-8 no-scrollbar scroll-smooth">
+                {/* Filters - Responsive Grid/Wrap */}
+                <div className="flex flex-wrap gap-2 sm:gap-3 mb-8">
                     {filters.map(f => (
                         <button
                             key={f.value}
@@ -74,16 +75,16 @@ function MyCourses() {
                                 color: 'white',
                                 boxShadow: '0 4px 12px rgba(99, 102, 241, 0.4)',
                             } : {}}
-                            className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap flex-shrink-0 ${filter === f.value
-                                ? 'scale-[1.02]'
+                            className={`flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${filter === f.value
+                                ? 'scale-105'
                                 : 'bg-white border border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-violet-100 hover:text-violet-600'
                                 }`}
                             onClick={() => setFilter(f.value)}
                         >
-                            {f.label}
+                            <span>{f.label}</span>
                             <span
                                 style={filter === f.value ? { backgroundColor: 'rgba(255,255,255,0.2)', color: 'white' } : {}}
-                                className={`ml-2 px-2.5 py-0.5 rounded-lg text-xs font-bold ${filter === f.value
+                                className={`px-2 py-0.5 rounded-md text-xs font-bold ${filter === f.value
                                     ? ''
                                     : 'bg-violet-50 text-violet-600'
                                     }`}
