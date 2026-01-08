@@ -279,26 +279,6 @@ function Profile() {
                 >
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-1">Profil Fotoğrafı URL</label>
-                            <div className="flex gap-3 items-center">
-                                <img
-                                    src={formData.avatar || 'https://via.placeholder.com/60'}
-                                    alt="Preview"
-                                    className="w-14 h-14 rounded-xl object-cover border border-gray-200"
-                                />
-                                <input
-                                    type="url"
-                                    name="avatar"
-                                    value={formData.avatar}
-                                    onChange={handleChange}
-                                    placeholder="https://example.com/photo.jpg"
-                                    className="flex-1 px-4 py-2.5 rounded-xl border border-gray-300 focus:border-violet-500 focus:ring-2 focus:ring-violet-100 transition-all"
-                                />
-                            </div>
-                            <p className="text-xs text-gray-400 mt-1">Geçerli bir resim URL'si girin</p>
-                        </div>
-
-                        <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">Ad Soyad</label>
                             <input
                                 type="text"
