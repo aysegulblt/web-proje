@@ -65,7 +65,7 @@ function MyCourses() {
                     <p className="text-gray-500 mt-1">{enrolledCourses.length} kursa kayıtlısınız</p>
                 </div>
 
-                <div className="flex overflow-x-auto pb-4 -mx-4 px-4 md:mx-0 md:px-0 md:pb-0 md:flex-wrap gap-3 mb-8 no-scrollbar scroll-smooth">
+                <div className="flex overflow-x-auto pb-4 md:pb-0 md:flex-wrap gap-3 mb-8 no-scrollbar scroll-smooth">
                     {filters.map(f => (
                         <button
                             key={f.value}
