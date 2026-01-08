@@ -71,7 +71,7 @@ function CourseCard({ course, showProgress = false }) {
                                 style={{ width: `${enrollment.progress}%` }}
                             />
                         </div>
-                        <div className="flex justify-between items-center">
+                        <div className="flex flex-wrap justify-between items-center gap-2">
                             <span className="text-xs text-gray-500">{enrollment.progress}% tamamlandı</span>
                             <Button variant="primary" size="small">
                                 {enrollment.progress === 100 ? 'Tekrar İzle' : 'Devam Et'}
@@ -79,7 +79,7 @@ function CourseCard({ course, showProgress = false }) {
                         </div>
                     </div>
                 ) : (
-                    <div className="pt-3 border-t border-gray-100 flex justify-between items-end">
+                    <div className="pt-3 border-t border-gray-100 flex flex-wrap justify-between items-end gap-2">
                         <div className="flex flex-col">
                             {course.originalPrice && (
                                 <span className="text-xs text-gray-400 line-through mb-0.5">₺{course.originalPrice}</span>

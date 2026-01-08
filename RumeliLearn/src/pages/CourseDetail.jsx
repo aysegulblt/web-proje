@@ -92,7 +92,7 @@ function CourseDetail() {
                             </button>
 
                             {/* Category & Level Badges */}
-                            <div className="flex items-center gap-3 mb-6">
+                            <div className="flex flex-wrap items-center gap-3 mb-6">
                                 <span className="px-4 py-1.5 bg-gradient-to-r from-violet-600 to-violet-600 rounded-full text-sm font-semibold shadow-lg shadow-violet-500/30">
                                     {course.category}
                                 </span>
@@ -129,7 +129,7 @@ function CourseDetail() {
                             </div>
 
                             {/* Instructor Card */}
-                            <div className="inline-flex items-center gap-4 p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-colors">
+                            <div className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-colors max-w-md">
                                 <img
                                     src={course.instructorImage}
                                     alt={course.instructor}
