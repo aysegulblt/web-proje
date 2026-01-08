@@ -47,6 +47,7 @@ function CourseDetail() {
     const handleUnenroll = () => {
         if (window.confirm('Bu kurstan kaydınızı iptal etmek istediğinizden emin misiniz? İlerlemeniz silinecektir.')) {
             unenrollCourse(course.id)
+            navigate('/kurslarim')
         }
     }
 
