@@ -1,0 +1,1676 @@
+[
+    {
+        "id": 1,
+        "title": "React ile Modern Web Geliştirme",
+        "description": "React'ın temellerinden ileri seviye kavramlarına kadar kapsamlı bir eğitim. Hooks, Context API, Router ve daha fazlasını öğrenin. Gerçek dünya projeleri ile pratik yapın ve modern web uygulamaları geliştirme becerisi kazanın.",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=450&fit=crop",
+        "instructor": "Dr. Nehir ASLAN",
+        "instructorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+        "instructorBio": "10 yıllık yazılım geliştirme deneyimi. Google ve Microsoft'ta çalıştı. React ve JavaScript konularında uzman.",
+        "category": "Yazılım",
+        "level": "Orta",
+        "price": 299.99,
+        "originalPrice": 599.99,
+        "rating": 4.8,
+        "reviewCount": 2847,
+        "studentCount": 15420,
+        "duration": "42 saat",
+        "lessonCount": 186,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-15",
+        "learningOutcomes": [
+            "React'ın temel yapı taşları olan Component, Props ve State mantığını",
+            "Hooks (useState, useEffect, useContext) ile modern state yönetimini",
+            "React Router ile tek sayfa uygulamaları (SPA) geliştirmeyi",
+            "Redux Toolkit ile global state yönetimini",
+            "Axios ile API istekleri yapmayı ve veri çekmeyi",
+            "Custom Hooks oluşturarak kod tekrarını önlemeyi"
+        ],
+        "curriculum": [
+            {
+                "section": "React'a Giriş",
+                "lessons": [
+                    {
+                        "title": "Kurs Tanıtımı ve Kurulum",
+                        "duration": "12:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "React Nedir? Neden React?",
+                        "duration": "18:45",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "İlk React Uygulaması",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "JSX Syntax Temelleri",
+                        "duration": "22:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Component Yapısı",
+                        "duration": "28:30",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "React Hooks",
+                "lessons": [
+                    {
+                        "title": "useState Hook",
+                        "duration": "32:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "useEffect Hook",
+                        "duration": "35:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "useContext Hook",
+                        "duration": "28:20",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "useReducer Hook",
+                        "duration": "40:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Custom Hooks Oluşturma",
+                        "duration": "45:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "State Yönetimi",
+                "lessons": [
+                    {
+                        "title": "Context API Temelleri",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Global State Patterns",
+                        "duration": "35:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Redux Temelleri",
+                        "duration": "42:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Redux Toolkit",
+                        "duration": "38:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Zustand ile State Yönetimi",
+                        "duration": "25:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "React Router",
+                "lessons": [
+                    {
+                        "title": "Router Kurulumu",
+                        "duration": "18:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Route Tanımlama",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Dinamik Rotalar",
+                        "duration": "28:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Nested Routes",
+                        "duration": "32:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Protected Routes",
+                        "duration": "35:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Mehmet K.",
+                "avatar": "https://i.pravatar.cc/100?img=1",
+                "rating": 5,
+                "comment": "Harika bir kurs! React'ı sıfırdan öğrenmek isteyenler için mükemmel. Dr. Nehir Hoca çok iyi anlatıyor.",
+                "date": "2025-12-10"
+            },
+            {
+                "user": "Ayşe D.",
+                "avatar": "https://i.pravatar.cc/100?img=5",
+                "rating": 5,
+                "comment": "Çok detaylı ve kapsamlı. Projelerle öğrenmek çok faydalı oldu. Kesinlikle tavsiye ederim.",
+                "date": "2025-12-08"
+            },
+            {
+                "user": "Can B.",
+                "avatar": "https://i.pravatar.cc/100?img=3",
+                "rating": 4,
+                "comment": "İçerik çok güzel, sadece bazı bölümler biraz hızlı geçilmiş. Ama genel olarak çok memnunum.",
+                "date": "2025-12-05"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Python ile Veri Bilimi",
+        "description": "Python programlama dilini kullanarak veri analizi, görselleştirme ve makine öğrenmesi temellerini öğrenin. Pandas, NumPy, Matplotlib ve Scikit-learn kütüphaneleriyle çalışın.",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=450&fit=crop",
+        "instructor": "Caner ÖZ",
+        "instructorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+        "instructorBio": "Veri Bilimcisi. Karmaşık verileri anlamlı içgörülere dönüştürme konusunda uzman.",
+        "category": "Yazılım",
+        "level": "Başlangıç",
+        "price": 349.99,
+        "originalPrice": 699.99,
+        "rating": 4.9,
+        "reviewCount": 3521,
+        "studentCount": 22150,
+        "duration": "56 saat",
+        "lessonCount": 214,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-20",
+        "curriculum": [
+            {
+                "section": "Python Temelleri",
+                "lessons": [
+                    {
+                        "title": "Python Kurulumu",
+                        "duration": "15:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Değişkenler ve Veri Tipleri",
+                        "duration": "28:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Kontrol Yapıları",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Fonksiyonlar",
+                        "duration": "42:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Listeler ve Sözlükler",
+                        "duration": "38:45",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "NumPy ile Sayısal Hesaplama",
+                "lessons": [
+                    {
+                        "title": "NumPy Giriş",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Array Operasyonları",
+                        "duration": "32:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "İstatistiksel Fonksiyonlar",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Linear Algebra",
+                        "duration": "45:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Broadcasting",
+                        "duration": "22:15",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Pandas ile Veri Analizi",
+                "lessons": [
+                    {
+                        "title": "DataFrame Temelleri",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Veri Okuma ve Yazma",
+                        "duration": "25:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Veri Temizleme",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Gruplama ve Agregasyon",
+                        "duration": "35:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Merge ve Join",
+                        "duration": "28:20",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Ali R.",
+                "avatar": "https://i.pravatar.cc/100?img=8",
+                "rating": 5,
+                "comment": "Veri bilimi kariyerime başlamam için ihtiyacım olan her şey bu kursta var!",
+                "date": "2025-12-18"
+            },
+            {
+                "user": "Zeynep A.",
+                "avatar": "https://i.pravatar.cc/100?img=9",
+                "rating": 5,
+                "comment": "Caner Hoca çok bilgili ve sabırlı. Konuları çok iyi anlatıyor.",
+                "date": "2025-12-15"
+            },
+            {
+                "user": "Burak M.",
+                "avatar": "https://i.pravatar.cc/100?img=12",
+                "rating": 4,
+                "comment": "Kapsamlı ve faydalı. Sadece makine öğrenmesi bölümü biraz daha detaylı olabilirdi.",
+                "date": "2025-12-12"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "UI/UX Tasarım Masterclass",
+        "description": "Profesyonel UI/UX tasarımcı olmak için gereken tüm becerileri kazanın. Figma ile tasarım, kullanıcı araştırması, wireframing, prototipleme ve tasarım sistemleri.",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=450&fit=crop",
+        "instructor": "Dr. Emre TAŞDEMİR",
+        "instructorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+        "instructorBio": "Senior UX Designer. Apple ve Spotify'da 8 yıl deneyim. 100+ ödül kazanmış projeler.",
+        "category": "Tasarım",
+        "level": "Başlangıç",
+        "price": 279.99,
+        "originalPrice": 549.99,
+        "rating": 4.7,
+        "reviewCount": 1892,
+        "studentCount": 11340,
+        "duration": "38 saat",
+        "lessonCount": 156,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-18",
+        "curriculum": [
+            {
+                "section": "UX Tasarım Temelleri",
+                "lessons": [
+                    {
+                        "title": "UX Nedir?",
+                        "duration": "18:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Kullanıcı Araştırması",
+                        "duration": "35:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Persona Oluşturma",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "User Journey Mapping",
+                        "duration": "32:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Information Architecture",
+                        "duration": "40:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Figma Temelleri",
+                "lessons": [
+                    {
+                        "title": "Figma Arayüzü",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Shapes ve Layers",
+                        "duration": "28:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Typography",
+                        "duration": "25:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Color ve Effects",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Components",
+                        "duration": "45:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Wireframing ve Prototipleme",
+                "lessons": [
+                    {
+                        "title": "Low-Fidelity Wireframes",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "High-Fidelity Mockups",
+                        "duration": "42:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Interactive Prototypes",
+                        "duration": "38:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Micro-interactions",
+                        "duration": "28:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Usability Testing",
+                        "duration": "32:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Deniz T.",
+                "avatar": "https://i.pravatar.cc/100?img=15",
+                "rating": 5,
+                "comment": "Figma'yı sıfırdan öğrendim ve şimdi freelance projeler yapıyorum. Harika kurs!",
+                "date": "2025-12-16"
+            },
+            {
+                "user": "Ece S.",
+                "avatar": "https://i.pravatar.cc/100?img=16",
+                "rating": 4,
+                "comment": "Çok kapsamlı ve pratik odaklı. Dr. Emre Hoca çok deneyimli.",
+                "date": "2025-12-14"
+            },
+            {
+                "user": "Oğuz K.",
+                "avatar": "https://i.pravatar.cc/100?img=17",
+                "rating": 5,
+                "comment": "Tasarım geçmişim yoktu ama bu kurs sayesinde kariyer değiştirdim!",
+                "date": "2025-12-10"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Dijital Pazarlama Stratejileri",
+        "description": "Google Ads, Facebook/Instagram reklamları, SEO, içerik pazarlama ve e-posta pazarlaması konularında uzmanlaşın. ROI odaklı kampanya yönetimi öğrenin.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+        "instructor": "Zeynep SANCAR",
+        "instructorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+        "instructorBio": "Dijital Pazarlama Uzmanı. 15 yıl tecrübe. 500+ başarılı kampanya yönetimi.",
+        "category": "İş",
+        "level": "Orta",
+        "price": 249.99,
+        "originalPrice": 499.99,
+        "rating": 4.6,
+        "reviewCount": 2156,
+        "studentCount": 13890,
+        "duration": "32 saat",
+        "lessonCount": 128,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-12",
+        "learningOutcomes": [
+            "Dijital pazarlama stratejileri oluşturmayı",
+            "SEO (Arama Motoru Optimizasyonu) tekniklerini",
+            "Google Ads ve Facebook Ads ile reklam yönetimini",
+            "Sosyal medya pazarlaması ve içerik stratejilerini",
+            "Google Analytics ile veri analizini ve raporlamayı",
+            "E-posta pazarlaması ve otomasyon kurgularını"
+        ],
+        "curriculum": [
+            {
+                "section": "Dijital Pazarlama Temelleri",
+                "lessons": [
+                    {
+                        "title": "Dijital Pazarlama Nedir?",
+                        "duration": "15:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Dijital Pazarlama Stratejisi",
+                        "duration": "28:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Hedef Kitle Analizi",
+                        "duration": "32:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Rekabet Analizi",
+                        "duration": "25:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "KPI ve Metrikler",
+                        "duration": "22:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Google Ads",
+                "lessons": [
+                    {
+                        "title": "Google Ads Hesap Kurulumu",
+                        "duration": "18:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Anahtar Kelime Araştırması",
+                        "duration": "35:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Arama Ağı Kampanyaları",
+                        "duration": "42:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Display Reklamlar",
+                        "duration": "28:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "YouTube Ads",
+                        "duration": "32:15",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Sosyal Medya Reklamları",
+                "lessons": [
+                    {
+                        "title": "Facebook Business Manager",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Hedefleme Stratejileri",
+                        "duration": "38:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Instagram Reklamları",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Retargeting",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "A/B Testing",
+                        "duration": "22:45",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Hakan Y.",
+                "avatar": "https://i.pravatar.cc/100?img=20",
+                "rating": 5,
+                "comment": "Şirketimin dijital pazarlama bütçesini %300 daha verimli kullanmamı sağladı.",
+                "date": "2025-12-11"
+            },
+            {
+                "user": "Sema N.",
+                "avatar": "https://i.pravatar.cc/100?img=21",
+                "rating": 4,
+                "comment": "Çok pratik bilgiler. Hemen uygulamaya başladım.",
+                "date": "2025-12-09"
+            },
+            {
+                "user": "Kemal A.",
+                "avatar": "https://i.pravatar.cc/100?img=22",
+                "rating": 5,
+                "comment": "ROI hesaplama bölümü muhteşemdi. Artık verilere dayalı kararlar alıyorum.",
+                "date": "2025-12-06"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Kişisel Gelişim ve Liderlik",
+        "description": "Etkili iletişim, zaman yönetimi, duygusal zeka ve liderlik becerilerinizi geliştirin. Kariyer hedeflerinize ulaşmak için güçlü bir temel oluşturun.",
+        "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop",
+        "instructor": "Prof. Dr. Ayşegül BULUT",
+        "instructorImage": "/instructors/aysegul-bulut.jpg",
+        "instructorBio": "Bilgisayar Mühendisi. Büyük veri analitiği ve yapay zeka alanlarında uzman akademisyen.",
+        "category": "Kişisel Gelişim",
+        "level": "Başlangıç",
+        "price": 199.99,
+        "originalPrice": 399.99,
+        "rating": 4.9,
+        "reviewCount": 4235,
+        "studentCount": 28760,
+        "duration": "24 saat",
+        "lessonCount": 96,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-19",
+        "curriculum": [
+            {
+                "section": "Kendini Tanıma",
+                "lessons": [
+                    {
+                        "title": "Öz Farkındalık",
+                        "duration": "22:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Güçlü ve Zayıf Yönler",
+                        "duration": "28:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Değerler ve İnançlar",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Hedef Belirleme",
+                        "duration": "32:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Vizyon Oluşturma",
+                        "duration": "18:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Etkili İletişim",
+                "lessons": [
+                    {
+                        "title": "Aktif Dinleme",
+                        "duration": "20:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Beden Dili",
+                        "duration": "25:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Empati Geliştirme",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "İkna Teknikleri",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Çatışma Yönetimi",
+                        "duration": "30:45",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Liderlik Becerileri",
+                "lessons": [
+                    {
+                        "title": "Liderlik Stilleri",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Ekip Motivasyonu",
+                        "duration": "32:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Delegasyon",
+                        "duration": "22:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Karar Verme",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Kriz Yönetimi",
+                        "duration": "40:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Leyla P.",
+                "avatar": "https://i.pravatar.cc/100?img=25",
+                "rating": 5,
+                "comment": "Hayatımı değiştiren bir kurs. Artık daha özgüvenli ve etkili bir liderim.",
+                "date": "2025-12-17"
+            },
+            {
+                "user": "Emre G.",
+                "avatar": "https://i.pravatar.cc/100?img=26",
+                "rating": 5,
+                "comment": "Prof. Dr. Ayşegül Hoca'nın anlatım tarzı muhteşem. Her dersten yeni bir şey öğreniyorum.",
+                "date": "2025-12-15"
+            },
+            {
+                "user": "Sibel Y.",
+                "avatar": "https://i.pravatar.cc/100?img=27",
+                "rating": 5,
+                "comment": "İş yerinde terfi aldım bu kursa katıldıktan sonra. Kesinlikle tavsiye ederim.",
+                "date": "2025-12-12"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Node.js ile Backend Geliştirme",
+        "description": "Node.js, Express.js ve MongoDB kullanarak profesyonel RESTful API'ler geliştirin. Authentication, authorization ve deployment konularını öğrenin.",
+        "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&h=450&fit=crop",
+        "instructor": "Prof. Dr. Adil EFE",
+        "instructorImage": "/instructors/adil-efe.jpg",
+        "instructorBio": "Node.js ve mikroservis mimarileri konularında uzman akademisyen.",
+        "category": "Yazılım",
+        "level": "Orta",
+        "price": 329.99,
+        "originalPrice": 649.99,
+        "rating": 4.7,
+        "reviewCount": 1876,
+        "studentCount": 9870,
+        "duration": "48 saat",
+        "lessonCount": 192,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-14",
+        "learningOutcomes": [
+            "Kullanıcı deneyimi (UX) ve kullanıcı arayüzü (UI) prensiplerini",
+            "Figma ile profesyonel arayüz tasarımları yapmayı",
+            "Wireframe ve prototip oluşturma süreçlerini",
+            "Renk teorisi, tipografi ve grid sistemlerini",
+            "Design System oluşturmayı ve kullanmayı",
+            "Kullanıcı testleri yapmayı ve geri bildirimleri işlemeyi"
+        ],
+        "curriculum": [
+            {
+                "section": "Node.js Temelleri",
+                "lessons": [
+                    {
+                        "title": "Node.js Nedir?",
+                        "duration": "15:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "npm ve Package Management",
+                        "duration": "22:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Modules ve Require",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "File System",
+                        "duration": "25:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Asenkron Programlama",
+                        "duration": "40:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Express.js Framework",
+                "lessons": [
+                    {
+                        "title": "Express Kurulumu",
+                        "duration": "18:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Routing",
+                        "duration": "30:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Middleware",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Error Handling",
+                        "duration": "28:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "RESTful API Design",
+                        "duration": "42:15",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "MongoDB ve Mongoose",
+                "lessons": [
+                    {
+                        "title": "MongoDB Kurulumu",
+                        "duration": "20:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "CRUD Operasyonları",
+                        "duration": "38:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Mongoose Schema",
+                        "duration": "32:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Validation",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Aggregation",
+                        "duration": "45:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Onur V.",
+                "avatar": "https://i.pravatar.cc/100?img=30",
+                "rating": 5,
+                "comment": "Backend dünyasına en iyi giriş bu kurs. Prof. Dr. Adil Hoca çok deneyimli.",
+                "date": "2025-12-13"
+            },
+            {
+                "user": "Pelin T.",
+                "avatar": "https://i.pravatar.cc/100?img=31",
+                "rating": 4,
+                "comment": "Çok kapsamlı. Deployment bölümü özellikle faydalı oldu.",
+                "date": "2025-12-10"
+            },
+            {
+                "user": "Serkan B.",
+                "avatar": "https://i.pravatar.cc/100?img=32",
+                "rating": 5,
+                "comment": "Frontend bilgimi backend ile tamamladım. Artık full-stack developer'ım!",
+                "date": "2025-12-07"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Adobe Photoshop Profesyonel",
+        "description": "Photoshop'un tüm araçlarını ve tekniklerini öğrenin. Fotoğraf düzenleme, kompozisyon, retouch ve dijital sanat teknikleri.",
+        "image": "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800&h=450&fit=crop",
+        "instructor": "Dr. Emre TAŞDEMİR",
+        "instructorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+        "instructorBio": "Apple ve Spotify deneyimi olan ödüllü tasarımcı. Minimalist tasarım uzmanı.",
+        "category": "Tasarım",
+        "level": "Başlangıç",
+        "price": 229.99,
+        "originalPrice": 459.99,
+        "rating": 4.8,
+        "reviewCount": 2543,
+        "studentCount": 16780,
+        "duration": "36 saat",
+        "lessonCount": 144,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-16",
+        "curriculum": [
+            {
+                "section": "Photoshop Arayüzü",
+                "lessons": [
+                    {
+                        "title": "Workspace Ayarları",
+                        "duration": "18:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Tool Panel",
+                        "duration": "25:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Layers Panel",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Shortcuts",
+                        "duration": "22:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Preferences",
+                        "duration": "15:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Seçim Araçları",
+                "lessons": [
+                    {
+                        "title": "Marquee Tools",
+                        "duration": "20:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Lasso Tools",
+                        "duration": "25:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Magic Wand ve Quick Selection",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Select and Mask",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Color Range",
+                        "duration": "22:15",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Retouch Teknikleri",
+                "lessons": [
+                    {
+                        "title": "Clone Stamp",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Healing Brush",
+                        "duration": "28:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Content-Aware Fill",
+                        "duration": "32:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Frequency Separation",
+                        "duration": "45:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Dodge and Burn",
+                        "duration": "35:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Nur E.",
+                "avatar": "https://i.pravatar.cc/100?img=35",
+                "rating": 5,
+                "comment": "Dr. Emre Hoca'nın anlatımı çok akıcı. Hiç sıkılmadan bitirdim kursu.",
+                "date": "2025-12-15"
+            },
+            {
+                "user": "Yusuf K.",
+                "avatar": "https://i.pravatar.cc/100?img=36",
+                "rating": 5,
+                "comment": "Fotoğraf düzenleme konusunda profesyonel seviyeye ulaştım.",
+                "date": "2025-12-12"
+            },
+            {
+                "user": "Ceren M.",
+                "avatar": "https://i.pravatar.cc/100?img=37",
+                "rating": 4,
+                "comment": "Çok detaylı bir kurs. Bazen biraz yoğun gelse de çok faydalı.",
+                "date": "2025-12-08"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Finansal Okuryazarlık",
+        "description": "Kişisel finans, yatırım stratejileri, bütçe yönetimi ve emeklilik planlaması konularında temel bilgiler edinin.",
+        "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=450&fit=crop",
+        "instructor": "Zeynep SANCAR",
+        "instructorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+        "instructorBio": "Büyük markalar için SEO ve sosyal medya stratejileri geliştirdi.",
+        "category": "İş",
+        "level": "Başlangıç",
+        "price": 179.99,
+        "originalPrice": 359.99,
+        "rating": 4.7,
+        "reviewCount": 3128,
+        "studentCount": 19450,
+        "duration": "20 saat",
+        "lessonCount": 80,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-17",
+        "curriculum": [
+            {
+                "section": "Finansın Temelleri",
+                "lessons": [
+                    {
+                        "title": "Para Nedir?",
+                        "duration": "12:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Faiz ve Bileşik Faiz",
+                        "duration": "25:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Enflasyon",
+                        "duration": "20:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Risk ve Getiri",
+                        "duration": "28:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Portföy Teorisi",
+                        "duration": "35:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Kişisel Bütçe",
+                "lessons": [
+                    {
+                        "title": "Gelir ve Gider Analizi",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "50/30/20 Kuralı",
+                        "duration": "18:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Acil Durum Fonu",
+                        "duration": "15:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Borç Yönetimi",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Tasarruf Stratejileri",
+                        "duration": "25:45",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Yatırım Araçları",
+                "lessons": [
+                    {
+                        "title": "Hisse Senetleri",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Tahviller",
+                        "duration": "28:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Yatırım Fonları",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Altın ve Emtia",
+                        "duration": "22:15",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Kripto Paralar",
+                        "duration": "40:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Berk H.",
+                "avatar": "https://i.pravatar.cc/100?img=40",
+                "rating": 5,
+                "comment": "Finansal özgürlük yolculuğuma bu kursla başladım. Muhteşem içerik!",
+                "date": "2025-12-16"
+            },
+            {
+                "user": "Aslı F.",
+                "avatar": "https://i.pravatar.cc/100?img=41",
+                "rating": 5,
+                "comment": "Karmaşık finans konularını çok anlaşılır anlatıyor Zeynep Hoca.",
+                "date": "2025-12-14"
+            },
+            {
+                "user": "Tolga R.",
+                "avatar": "https://i.pravatar.cc/100?img=42",
+                "rating": 4,
+                "comment": "Temel bilgiler için mükemmel. İleri seviye için başka kurslar gerekebilir.",
+                "date": "2025-12-11"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Mobil Uygulama ile React Native",
+        "description": "React Native kullanarak iOS ve Android için cross-platform mobil uygulamalar geliştirin. Expo ve CLI kurulumları, navigation, state yönetimi ve native modüller.",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
+        "instructor": "Dr. Nehir ASLAN",
+        "instructorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+        "instructorBio": "10+ yıllık deneyime sahip Full Stack geliştirici. Python ve React uzmanı.",
+        "category": "Yazılım",
+        "level": "İleri",
+        "price": 379.99,
+        "originalPrice": 749.99,
+        "rating": 4.6,
+        "reviewCount": 1245,
+        "studentCount": 7650,
+        "duration": "52 saat",
+        "lessonCount": 208,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-13",
+        "curriculum": [
+            {
+                "section": "React Native Temelleri",
+                "lessons": [
+                    {
+                        "title": "React Native vs Native",
+                        "duration": "18:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Expo vs CLI",
+                        "duration": "25:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "İlk Uygulama",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Core Components",
+                        "duration": "42:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Styling",
+                        "duration": "30:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Navigation",
+                "lessons": [
+                    {
+                        "title": "React Navigation Kurulumu",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Stack Navigator",
+                        "duration": "28:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Tab Navigator",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Drawer Navigator",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Deep Linking",
+                        "duration": "35:45",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Native Features",
+                "lessons": [
+                    {
+                        "title": "Kamera Kullanımı",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Konum Servisleri",
+                        "duration": "35:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Push Notifications",
+                        "duration": "45:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Local Storage",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Native Modules",
+                        "duration": "50:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Volkan S.",
+                "avatar": "https://i.pravatar.cc/100?img=45",
+                "rating": 5,
+                "comment": "App Store'a ilk uygulamamı bu kurs sayesinde yükledim!",
+                "date": "2025-12-12"
+            },
+            {
+                "user": "İrem B.",
+                "avatar": "https://i.pravatar.cc/100?img=46",
+                "rating": 4,
+                "comment": "Çok kapsamlı. Native modüller bölümü biraz zorlayıcı ama öğretici.",
+                "date": "2025-12-09"
+            },
+            {
+                "user": "Cenk Y.",
+                "avatar": "https://i.pravatar.cc/100?img=47",
+                "rating": 5,
+                "comment": "Dr. Nehir Hoca konuları çok iyi açıklıyor. Her şey çok net.",
+                "date": "2025-12-05"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "İngilizce Konuşma Kursu",
+        "description": "Günlük İngilizce konuşma becerinizi geliştirin. Pronunciation, idioms, günlük diyaloglar ve iş İngilizcesi.",
+        "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&h=450&fit=crop",
+        "instructor": "Prof. Dr. Ayşegül BULUT",
+        "instructorImage": "/instructors/aysegul-bulut.jpg",
+        "instructorBio": "Büyük veri analitiği ve yapay zeka alanlarında uzman akademisyen.",
+        "category": "Kişisel Gelişim",
+        "level": "Orta",
+        "price": 259.99,
+        "originalPrice": 519.99,
+        "rating": 4.8,
+        "reviewCount": 2876,
+        "studentCount": 18230,
+        "duration": "30 saat",
+        "lessonCount": 120,
+        "language": "Türkçe/İngilizce",
+        "lastUpdated": "2025-12-18",
+        "curriculum": [
+            {
+                "section": "Pronunciation",
+                "lessons": [
+                    {
+                        "title": "Vowel Sounds",
+                        "duration": "25:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Consonant Sounds",
+                        "duration": "28:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Word Stress",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Sentence Stress",
+                        "duration": "25:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Intonation",
+                        "duration": "30:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Daily Conversations",
+                "lessons": [
+                    {
+                        "title": "Greetings and Introductions",
+                        "duration": "20:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "At a Restaurant",
+                        "duration": "25:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Shopping",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Giving Directions",
+                        "duration": "18:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Phone Conversations",
+                        "duration": "28:45",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Business English",
+                "lessons": [
+                    {
+                        "title": "Email Writing",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Meetings",
+                        "duration": "30:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Presentations",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Negotiations",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Networking",
+                        "duration": "25:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Merve K.",
+                "avatar": "https://i.pravatar.cc/100?img=50",
+                "rating": 5,
+                "comment": "Native speaker ile pratik yapmak çok faydalı. Çok gelişti İngilizcem.",
+                "date": "2025-12-17"
+            },
+            {
+                "user": "Barış T.",
+                "avatar": "https://i.pravatar.cc/100?img=51",
+                "rating": 5,
+                "comment": "İş görüşmelerinde artık çok daha rahatım. Harika kurs!",
+                "date": "2025-12-14"
+            },
+            {
+                "user": "Dilan A.",
+                "avatar": "https://i.pravatar.cc/100?img=52",
+                "rating": 4,
+                "comment": "Pronunciation bölümü özellikle çok faydalı oldu.",
+                "date": "2025-12-10"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Girişimcilik ve Startup",
+        "description": "Fikir validasyonu, iş modeli oluşturma, yatırımcı sunumu, MVP geliştirme ve growth hacking stratejileri.",
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop",
+        "instructor": "Zeynep SANCAR",
+        "instructorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+        "instructorBio": "Büyük markalar için SEO ve sosyal medya stratejileri geliştirdi.",
+        "category": "İş",
+        "level": "Orta",
+        "price": 289.99,
+        "originalPrice": 579.99,
+        "rating": 4.7,
+        "reviewCount": 1654,
+        "studentCount": 8920,
+        "duration": "28 saat",
+        "lessonCount": 112,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-15",
+        "curriculum": [
+            {
+                "section": "Fikir ve Validasyon",
+                "lessons": [
+                    {
+                        "title": "Problem-Solution Fit",
+                        "duration": "25:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Müşteri Keşfi",
+                        "duration": "32:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Rekabet Analizi",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Value Proposition",
+                        "duration": "30:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "MVP Stratejisi",
+                        "duration": "35:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "İş Modeli",
+                "lessons": [
+                    {
+                        "title": "Business Model Canvas",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Revenue Models",
+                        "duration": "28:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Pricing Strategies",
+                        "duration": "25:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Unit Economics",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Scalability",
+                        "duration": "30:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Yatırım",
+                "lessons": [
+                    {
+                        "title": "Yatırım Turları",
+                        "duration": "22:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Pitch Deck Hazırlama",
+                        "duration": "45:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Valuation",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Term Sheet",
+                        "duration": "28:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Due Diligence",
+                        "duration": "32:45",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Mustafa E.",
+                "avatar": "https://i.pravatar.cc/100?img=55",
+                "rating": 5,
+                "comment": "İlk startup'ımı bu kurs sayesinde kurdum. Şimdi yatırım görüşmelerindeyim!",
+                "date": "2025-12-14"
+            },
+            {
+                "user": "Ezgi N.",
+                "avatar": "https://i.pravatar.cc/100?img=56",
+                "rating": 5,
+                "comment": "Zeynep Hoca'nın gerçek deneyimlerini paylaşması çok değerli.",
+                "date": "2025-12-11"
+            },
+            {
+                "user": "Kağan U.",
+                "avatar": "https://i.pravatar.cc/100?img=57",
+                "rating": 4,
+                "comment": "Çok pratik bilgiler. MVP bölümü özellikle faydalı.",
+                "date": "2025-12-07"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Motion Graphics ve After Effects",
+        "description": "Adobe After Effects ile profesyonel motion graphics, animasyonlar ve video efektleri oluşturun. Logo animasyonları, kinetic typography ve visual effects.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=450&fit=crop",
+        "instructor": "Dr. Emre TAŞDEMİR",
+        "instructorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+        "instructorBio": "Apple ve Spotify deneyimi olan ödüllü tasarımcı. Minimalist tasarım uzmanı.",
+        "category": "Tasarım",
+        "level": "İleri",
+        "price": 349.99,
+        "originalPrice": 699.99,
+        "rating": 4.9,
+        "reviewCount": 1432,
+        "studentCount": 6540,
+        "duration": "45 saat",
+        "lessonCount": 180,
+        "language": "Türkçe",
+        "lastUpdated": "2025-12-19",
+        "curriculum": [
+            {
+                "section": "After Effects Temelleri",
+                "lessons": [
+                    {
+                        "title": "Arayüz ve Workspace",
+                        "duration": "22:00",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Composition ve Timeline",
+                        "duration": "28:30",
+                        "isPreview": true
+                    },
+                    {
+                        "title": "Keyframe Animasyon",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Easing ve Graph Editor",
+                        "duration": "40:45",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Masks ve Shapes",
+                        "duration": "32:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Motion Graphics",
+                "lessons": [
+                    {
+                        "title": "Shape Layers",
+                        "duration": "38:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Text Animation",
+                        "duration": "35:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Logo Animation",
+                        "duration": "45:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Kinetic Typography",
+                        "duration": "50:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Transitions",
+                        "duration": "28:00",
+                        "isPreview": false
+                    }
+                ]
+            },
+            {
+                "section": "Expressions ve Scripting",
+                "lessons": [
+                    {
+                        "title": "Expressions Temelleri",
+                        "duration": "40:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Wiggle ve Random",
+                        "duration": "25:30",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Loop Expressions",
+                        "duration": "30:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Time Expressions",
+                        "duration": "35:00",
+                        "isPreview": false
+                    },
+                    {
+                        "title": "Custom Expressions",
+                        "duration": "45:00",
+                        "isPreview": false
+                    }
+                ]
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Arda C.",
+                "avatar": "https://i.pravatar.cc/100?img=60",
+                "rating": 5,
+                "comment": "Dr. Emre Hoca'nın işleri izlerken bile öğreniyorsunuz. Muhteşem kurs!",
+                "date": "2025-12-18"
+            },
+            {
+                "user": "Sude M.",
+                "avatar": "https://i.pravatar.cc/100?img=61",
+                "rating": 5,
+                "comment": "Expressions bölümü hayat kurtarıcı. Çok verimli çalışıyorum artık.",
+                "date": "2025-12-15"
+            },
+            {
+                "user": "Ozan K.",
+                "avatar": "https://i.pravatar.cc/100?img=62",
+                "rating": 5,
+                "comment": "Freelance işlerim bu kurs sonrası 3 katına çıktı!",
+                "date": "2025-12-12"
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+{
+    "id": 1,
+    "name": "Nurseda Adlı",
+    "email": "nurseda.adli@ogr.iu.edu.tr",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=faces",
+    "bio": "İstanbul Üniversitesi Endüstri Mühendisliği 3. sınıf öğrencisi. Proje yönetimi ve verimlilik optimizasyonu alanlarında kendimi geliştiriyorum.",
+    "enrolledCourses": [
+        {
+            "courseId": 1,
+            "progress": 65,
+            "enrolledAt": "2025-12-15T10:00:00Z",
+            "lastAccessedAt": "2026-01-05T14:30:00Z"
+        },
+        {
+            "courseId": 3,
+            "progress": 100,
+            "enrolledAt": "2025-11-10T09:00:00Z",
+            "lastAccessedAt": "2026-01-02T11:20:00Z"
+        },
+        {
+            "courseId": 2,
+            "progress": 25,
+            "enrolledAt": "2025-12-20T15:00:00Z",
+            "lastAccessedAt": "2026-01-06T16:45:00Z"
+        }
+    ],
+    "favorites": [
+        1,
+        4,
+        5
+    ],
+    "completedCourses": [],
+    "totalLearningTime": 24.5,
+    "joinDate": "2025-10-01",
+    "weeklyStats": [
+        {
+            "day": "Pzt",
+            "minutes": 60
+        },
+        {
+            "day": "Sal",
+            "minutes": 45
+        },
+        {
+            "day": "Çar",
+            "minutes": 90
+        },
+        {
+            "day": "Per",
+            "minutes": 30
+        },
+        {
+            "day": "Cum",
+            "minutes": 75
+        },
+        {
+            "day": "Cmt",
+            "minutes": 120
+        },
+        {
+            "day": "Paz",
+            "minutes": 60
+        }
+    ],
+    "activityLog": [
+        {
+            "id": 1,
+            "type": "video",
+            "title": "React Hooks: useMemo izlendi",
+            "course image": "React ile Modern Web Geliştirme",
+            "date": "2026-01-06T14:30:00"
+        },
+        {
+            "id": 2,
+            "type": "quiz",
+            "title": "Bölüm Sonu Testi #3 tamamlandı",
+            "course": "Python ile Veri Bilimi",
+            "score": 92,
+            "date": "2026-01-05T10:15:00"
+        },
+        {
+            "id": 3,
+            "type": "achievement",
+            "title": "\"Azimli Öğrenci\" rozeti kazanıldı",
+            "description": "7 gün üst üste ders izlediniz",
+            "date": "2026-01-04T16:45:00"
+        },
+        {
+            "id": 4,
+            "type": "enroll",
+            "title": "UI/UX Tasarım Masterclass kursuna kayıt olundu",
+            "date": "2025-12-20T09:00:00"
+        }
+    ],
+    "paymentMethods": [
+        {
+            "id": 1,
+            "type": "mastercard",
+            "last4": "5892",
+            "expiry": "11/28",
+            "holder": "NURSEDA ADLI"
+        }
+    ],
+    "payments": [
+        {
+            "id": "TRX-2026001",
+            "date": "2025-12-20",
+            "course": "UI/UX Tasarım Masterclass",
+            "amount": 279.99,
+            "status": "completed",
+            "invoiceUrl": "#"
+        },
+        {
+            "id": "TRX-2025089",
+            "date": "2025-12-15",
+            "course": "React ile Modern Web Geliştirme",
+            "amount": 299.99,
+            "status": "completed",
+            "invoiceUrl": "#"
+        },
+        {
+            "id": "TRX-2025072",
+            "date": "2025-11-10",
+            "course": "Python ile Veri Bilimi",
+            "amount": 349.99,
+            "status": "completed",
+            "invoiceUrl": "#"
+        }
+    ]
+}
