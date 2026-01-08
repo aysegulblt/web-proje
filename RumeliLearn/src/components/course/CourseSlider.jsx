@@ -73,7 +73,7 @@ function CourseSlider({ courses, autoPlay = true, interval = 5000 }) {
                                     </div>
                                 </div>
                                 {/* Navigation Arrows - Mobile: Top (align with rating), Desktop: Hidden (use side arrows) */}
-                                <div className="absolute top-0 -left-4 -right-4 flex md:hidden items-center justify-between pointer-events-none">
+                                <div className="absolute top-0 -left-6 -right-6 flex md:hidden items-center justify-between pointer-events-none">
                                     <button
                                         className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition-all border border-white/30 pointer-events-auto"
                                         onClick={(e) => { e.stopPropagation(); goToPrev(); }}

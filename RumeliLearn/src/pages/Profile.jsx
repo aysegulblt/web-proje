@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useUser } from '../context/UserContext'
 import Button from '../components/ui/Button'
 import Modal from '../components/ui/Modal'
-import { BookOpen, CheckCircle, Clock, Heart, Edit3, Mail, Calendar, User, Camera } from 'lucide-react'
+import { BookOpen, CheckCircle, Clock, Heart, Edit3, Mail, Calendar, User } from 'lucide-react'
 
 function Profile() {
     const {
@@ -90,13 +90,6 @@ function Profile() {
                                     alt={user.name}
                                     className="w-32 h-32 rounded-full border-4 border-white shadow-lg object-cover bg-white"
                                 />
-                                <button
-                                    onClick={() => setIsEditing(true)}
-                                    className="absolute bottom-1 right-1 w-9 h-9 bg-violet-600 hover:bg-violet-700 rounded-full flex items-center justify-center text-white shadow-lg transition-colors border-2 border-white"
-                                    title="Fotoğrafı değiştir"
-                                >
-                                    <Camera size={16} />
-                                </button>
                             </div>
 
                             {/* Name & Title - Now clearly separated */}
