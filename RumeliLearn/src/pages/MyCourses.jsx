@@ -65,8 +65,8 @@ function MyCourses() {
                     <p className="text-gray-500 mt-1">{enrolledCourses.length} kursa kayıtlısınız</p>
                 </div>
 
-                {/* Filters - Responsive Grid/Wrap */}
-                <div className="flex flex-wrap gap-2 sm:gap-3 mb-8">
+                {/* Filters - Responsive Grid */}
+                <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 sm:gap-3 mb-8">
                     {filters.map(f => (
                         <button
                             key={f.value}
@@ -75,8 +75,8 @@ function MyCourses() {
                                 color: 'white',
                                 boxShadow: '0 4px 12px rgba(99, 102, 241, 0.4)',
                             } : {}}
-                            className={`flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${filter === f.value
-                                ? 'scale-105'
+                            className={`flex items-center justify-between w-full sm:w-auto px-4 py-3 sm:px-5 sm:py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${filter === f.value
+                                ? 'scale-[1.02]'
                                 : 'bg-white border border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-violet-100 hover:text-violet-600'
                                 }`}
                             onClick={() => setFilter(f.value)}
@@ -84,7 +84,7 @@ function MyCourses() {
                             <span>{f.label}</span>
                             <span
                                 style={filter === f.value ? { backgroundColor: 'rgba(255,255,255,0.2)', color: 'white' } : {}}
-                                className={`px-2 py-0.5 rounded-md text-xs font-bold ${filter === f.value
+                                className={`ml-2 px-2.5 py-1 rounded-lg text-xs font-bold ${filter === f.value
                                     ? ''
                                     : 'bg-violet-50 text-violet-600'
                                     }`}
