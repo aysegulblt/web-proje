@@ -35,6 +35,9 @@ function Profile() {
 
     const completedCount = getCompletedCourses().length
     const learningTime = getTotalLearningTime()
+    const averageProgress = enrolledCourses.length > 0
+        ? enrolledCourses.reduce((sum, course) => sum + course.progress, 0) / enrolledCourses.length
+        : 0
 
     const stats = [
         {
@@ -178,7 +181,7 @@ function Profile() {
                                     className="text-violet-600 transition-all duration-1000 ease-out"
                                     strokeWidth="12"
                                     strokeDasharray={2 * Math.PI * 88}
-                                    strokeDashoffset={2 * Math.PI * 88 * (1 - (enrolledCourses.length > 0 ? (completedCount / enrolledCourses.length) : 0))}
+                                    strokeDashoffset={2 * Math.PI * 88 * (1 - averageProgress / 100)}
                                     strokeLinecap="round"
                                     fill="none"
                                     stroke="currentColor"
@@ -186,7 +189,7 @@ function Profile() {
                             </svg>
                             <div className="absolute inset-0 flex flex-col items-center justify-center">
                                 <span className="text-4xl font-bold text-gray-900">
-                                    {enrolledCourses.length > 0 ? Math.round((completedCount / enrolledCourses.length) * 100) : 0}%
+                                    {Math.round(averageProgress)}%
                                 </span>
                                 <span className="text-sm text-gray-500 font-medium">Tamamlandı</span>
                             </div>
