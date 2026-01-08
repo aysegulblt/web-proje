@@ -65,28 +65,27 @@ function MyCourses() {
                     <p className="text-gray-500 mt-1">{enrolledCourses.length} kursa kayıtlısınız</p>
                 </div>
 
-                <div className="flex flex-wrap gap-3 mb-8">
+                <div className="flex overflow-x-auto pb-4 -mx-4 px-4 md:mx-0 md:px-0 md:pb-0 md:flex-wrap gap-3 mb-8 no-scrollbar scroll-smooth">
                     {filters.map(f => (
                         <button
                             key={f.value}
                             style={filter === f.value ? {
                                 background: 'linear-gradient(to right, #4f46e5, #7c3aed)',
                                 color: 'white',
-                                boxShadow: '0 10px 25px -5px rgba(99, 102, 241, 0.5)',
-                                transform: 'scale(1.05)'
+                                boxShadow: '0 4px 12px rgba(99, 102, 241, 0.4)',
                             } : {}}
-                            className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${filter === f.value
-                                ? ''
-                                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                            className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap flex-shrink-0 ${filter === f.value
+                                ? 'scale-[1.02]'
+                                : 'bg-white border border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-violet-100 hover:text-violet-600'
                                 }`}
                             onClick={() => setFilter(f.value)}
                         >
                             {f.label}
                             <span
-                                style={filter === f.value ? { backgroundColor: 'rgba(255,255,255,0.3)', color: 'white' } : {}}
-                                className={`ml-2 px-2.5 py-1 rounded-full text-xs font-bold ${filter === f.value
+                                style={filter === f.value ? { backgroundColor: 'rgba(255,255,255,0.2)', color: 'white' } : {}}
+                                className={`ml-2 px-2.5 py-0.5 rounded-lg text-xs font-bold ${filter === f.value
                                     ? ''
-                                    : 'bg-white text-violet-600'
+                                    : 'bg-violet-50 text-violet-600'
                                     }`}
                             >
                                 {f.count}

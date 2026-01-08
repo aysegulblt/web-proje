@@ -23,7 +23,7 @@ function Button({
     const variantStyles = {
         primary: { backgroundColor: '#9333ea', color: 'white' },
         secondary: {},
-        danger: {},
+        danger: { backgroundColor: '#ef4444', color: 'white' },
         outline: {},
         ghost: {}
     }

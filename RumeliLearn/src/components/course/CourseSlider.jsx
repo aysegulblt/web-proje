@@ -60,15 +60,32 @@ function CourseSlider({ courses, autoPlay = true, interval = 5000 }) {
                             <p className="text-gray-300 mb-4 line-clamp-2">
                                 {course.description.slice(0, 150)}...
                             </p>
-                            <div className="flex items-center gap-4 mb-6">
-                                <Rating value={course.rating} reviewCount={course.reviewCount} />
-                                <div className="flex items-center gap-2">
-                                    <img
-                                        src={course.instructorImage}
-                                        alt={course.instructor}
-                                        className="w-8 h-8 rounded-full object-cover"
-                                    />
-                                    <span className="text-sm">{course.instructor}</span>
+                            <div className="relative mb-6">
+                                <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
+                                    <Rating value={course.rating} reviewCount={course.reviewCount} textClass="text-white" />
+                                    <div className="flex items-center gap-2">
+                                        <img
+                                            src={course.instructorImage}
+                                            alt={course.instructor}
+                                            className="w-8 h-8 rounded-full object-cover"
+                                        />
+                                        <span className="text-sm">{course.instructor}</span>
+                                    </div>
+                                </div>
+                                {/* Navigation Arrows - Mobile: Top (align with rating), Desktop: Hidden (use side arrows) */}
+                                <div className="absolute top-0 -left-4 -right-4 flex md:hidden items-center justify-between pointer-events-none">
+                                    <button
+                                        className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition-all border border-white/30 pointer-events-auto"
+                                        onClick={(e) => { e.stopPropagation(); goToPrev(); }}
+                                    >
+                                        <ChevronLeft size={20} />
+                                    </button>
+                                    <button
+                                        className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/40 backdrop-blur-sm flex items-center justify-center text-white transition-all border border-white/30 pointer-events-auto"
+                                        onClick={(e) => { e.stopPropagation(); goToNext(); }}
+                                    >
+                                        <ChevronRight size={20} />
+                                    </button>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
@@ -85,15 +102,15 @@ function CourseSlider({ courses, autoPlay = true, interval = 5000 }) {
                 </div>
             ))}
 
-            {/* Navigation Arrows */}
+            {/* Navigation Arrows - Desktop only */}
             <button
-                className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white transition-all z-20"
+                className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm items-center justify-center text-white transition-all z-20"
                 onClick={goToPrev}
             >
                 <ChevronLeft size={24} />
             </button>
             <button
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm flex items-center justify-center text-white transition-all z-20"
+                className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm items-center justify-center text-white transition-all z-20"
                 onClick={goToNext}
             >
                 <ChevronRight size={24} />
@@ -105,8 +122,8 @@ function CourseSlider({ courses, autoPlay = true, interval = 5000 }) {
                     <button
                         key={index}
                         className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
-                                ? 'w-8 bg-white'
-                                : 'bg-white/50 hover:bg-white/70'
+                            ? 'w-8 bg-white'
+                            : 'bg-white/50 hover:bg-white/70'
                             }`}
                         onClick={() => goToSlide(index)}
                         aria-label={`Slide ${index + 1}`}

@@ -256,13 +256,17 @@ function Profile() {
                                         .map((course, idx) => (
                                             <div key={idx} className="flex items-center justify-between p-3 rounded-lg hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100 group">
                                                 <div className="flex items-center gap-3">
-                                                    <div className="w-2 h-2 rounded-full bg-violet-500"></div>
+                                                    <div className={`w-2 h-2 rounded-full ${course.progress >= 100 ? 'bg-green-500' : 'bg-violet-500'}`}></div>
                                                     <div>
                                                         <p className="font-medium text-gray-900 text-sm line-clamp-1">{course.title}</p>
                                                         <p className="text-xs text-gray-500">% {course.progress} tamamlandı</p>
                                                     </div>
                                                 </div>
-                                                <Button size="small" variant="ghost" className="!py-1 !px-3 text-xs">Devam</Button>
+                                                {course.progress >= 100 ? (
+                                                    <span className="text-xs font-medium text-green-600 bg-green-50 px-3 py-1 rounded-full">Tamamlandı ✓</span>
+                                                ) : (
+                                                    <span className="text-xs font-medium text-violet-600 bg-violet-50 px-3 py-1 rounded-full">Devam Et →</span>
+                                                )}
                                             </div>
                                         ))
                                     }
