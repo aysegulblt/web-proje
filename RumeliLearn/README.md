@@ -49,5 +49,5 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 ## Geliştirici
 
-- **Ad Soyad:** [Adınız Soyadınız]
-- **Öğrenci No:** [Numaranız]
+- **Ad Soyad:** Ayşegül BULUT
+- **Öğrenci No:** 231201004
