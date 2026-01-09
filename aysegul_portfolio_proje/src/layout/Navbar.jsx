@@ -24,7 +24,11 @@ export default function Navbar() {
     <header className="w-full fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/40">
       <nav className="container flex items-center justify-between py-6">
         {/* LOGO */}
-        <NavLink to="/" className="font-semibold text-lg" onClick={closeMenu}>
+        <NavLink
+          to="/"
+          className="font-semibold text-lg cursor-pointer select-none"
+          onClick={closeMenu}
+        >
           <span className="text-[#91BADB]">BLT</span>{" "}
           <span className="text-foreground/70">Portfolio</span>
         </NavLink>

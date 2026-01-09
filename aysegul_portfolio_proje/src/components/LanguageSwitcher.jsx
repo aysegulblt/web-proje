@@ -9,7 +9,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => changeLanguage("tr")}
         className={cn(
-          "px-3 py-1 transition-colors",
+          "px-3 py-1 transition-colors cursor-pointer select-none",
           lang === "tr"
             ? "bg-[#91BADB] text-slate-900"
             : "bg-card/60 text-foreground/70 hover:bg-card/80"
@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => changeLanguage("en")}
         className={cn(
-          "px-3 py-1 transition-colors",
+          "px-3 py-1 transition-colors cursor-pointer select-none",
           lang === "en"
             ? "bg-[#91BADB] text-slate-900"
             : "bg-card/60 text-foreground/70 hover:bg-card/80"
