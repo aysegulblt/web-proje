@@ -36,7 +36,8 @@
 
   /* Gradient background animasyonları */
   --animate-slow-move: slow-move 18s ease-in-out infinite alternate;
-  --animate-slow-move-delayed: slow-move-delayed 22s ease-in-out infinite alternate;
+  --animate-slow-move-delayed: slow-move-delayed 22s ease-in-out infinite
+    alternate;
   --animate-meteor: meteor 5s linear infinite;
 
   @keyframes fade-in {
@@ -100,7 +101,6 @@
   }
 
   @keyframes float {
-
     0%,
     100% {
       transform: translateY(0);
@@ -112,7 +112,6 @@
   }
 
   @keyframes pulse-subtle {
-
     0%,
     100% {
       opacity: 1;
@@ -134,7 +133,6 @@
   }
 
   @keyframes bounce-subtle {
-
     0%,
     100% {
       transform: translateY(0);
@@ -193,7 +191,6 @@
 /* ---------------- BASE LAYER ---------------- */
 
 @layer base {
-
   /*  Varsayılan: AÇIK TEMA (hafif mavimsi beyaz) */
   :root {
     --background: 220 40% 98%;
@@ -233,6 +230,25 @@
   body {
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Input ve textarea'da normal text cursor ve seçim izni */
+  input,
+  textarea,
+  [contenteditable="true"] {
+    cursor: text;
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+  /* Linkler ve butonlar için pointer cursor */
+  a,
+  button,
+  [role="button"] {
+    cursor: pointer;
   }
 
   /* seçim rengi */
@@ -281,9 +297,13 @@
 @utility gradient-border {
   @apply relative rounded-xl;
   border: 1px solid transparent;
-  background:
-    linear-gradient(hsl(var(--card)), hsl(var(--card))) padding-box,
-    linear-gradient(135deg, rgba(145, 186, 219, 0.55), rgba(145, 186, 219, 0.05)) border-box;
+  background: linear-gradient(hsl(var(--card)), hsl(var(--card))) padding-box,
+    linear-gradient(
+        135deg,
+        rgba(145, 186, 219, 0.55),
+        rgba(145, 186, 219, 0.05)
+      )
+      border-box;
 }
 
 /*  ana buton */
@@ -426,8 +446,7 @@
 
 .skill-card-hover:hover {
   transform: translateY(-6px) scale(1.02);
-  box-shadow:
-    0 0 20px rgba(145, 186, 219, 0.2),
+  box-shadow: 0 0 20px rgba(145, 186, 219, 0.2),
     0 10px 40px rgba(145, 186, 219, 0.1);
 }
 
@@ -438,15 +457,17 @@
 }
 
 .project-card-overlay::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg,
-      transparent 0%,
-      rgba(145, 186, 219, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(145, 186, 219, 0.1) 100%
+  );
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -461,14 +482,16 @@
 }
 
 .glow-border::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: inherit;
-  background: linear-gradient(45deg,
-      rgba(145, 186, 219, 0.5),
-      rgba(145, 186, 219, 0.1),
-      rgba(145, 186, 219, 0.5));
+  background: linear-gradient(
+    45deg,
+    rgba(145, 186, 219, 0.5),
+    rgba(145, 186, 219, 0.1),
+    rgba(145, 186, 219, 0.5)
+  );
   z-index: -1;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -480,7 +503,6 @@
 
 /* Typing cursor blink */
 @keyframes blink {
-
   0%,
   50% {
     opacity: 1;
