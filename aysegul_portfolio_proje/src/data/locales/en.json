@@ -159,7 +159,7 @@
     "phoneLabel": "Phone:",
     "addressLabel": "Location:",
     "portfolioContact": "Portfolio Contact",
-    "successMessage": "Your message is ready! Your email app will open.",
+    "successMessage": "Your message has been sent successfully!",
     "requiredField": "This field is required",
     "invalidEmail": "Please enter a valid email address"
   }

@@ -159,7 +159,7 @@
     "phoneLabel": "Telefon:",
     "addressLabel": "Konum:",
     "portfolioContact": "Portfolyo İletişim",
-    "successMessage": "Mesajınız hazırlandı! E-posta uygulamanız açılacak.",
+    "successMessage": "Mesajınız başarıyla gönderildi!",
     "requiredField": "Bu alan zorunludur",
     "invalidEmail": "Geçerli bir e-posta adresi giriniz"
   }

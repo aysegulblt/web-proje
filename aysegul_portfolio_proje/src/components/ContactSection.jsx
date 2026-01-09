@@ -43,29 +43,12 @@ const ContactSection = () => {
 
     setErrors({});
 
-    const name = form.get("name") ?? "";
-    const mail = form.get("email") ?? "";
-    const subject = form.get("subject") ?? "";
-    const message = form.get("message") ?? "";
-
-    const body = `
-${t("contact.name")}: ${name}
-${t("contact.email")}: ${mail}
-
-${t("contact.message")}:
-${message}
-    `.trim();
-
-    const mailto = `mailto:${email}?subject=${encodeURIComponent(
-      String(subject || t("contact.portfolioContact"))
-    )}&body=${encodeURIComponent(body)}`;
-
     // Başarı mesajı göster
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);
 
-    // Mailto aç
-    window.location.href = mailto;
+    // Formu temizle
+    e.target.reset();
   };
 
   const inputBaseClass = `bg-transparent border rounded-lg px-4 py-3 text-sm outline-none
