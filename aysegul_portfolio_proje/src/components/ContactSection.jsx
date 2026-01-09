@@ -46,13 +46,11 @@ const ContactSection = () => {
     const name = form.get("name") ?? "";
     const mail = form.get("email") ?? "";
     const subject = form.get("subject") ?? "";
-    const timeline = form.get("timeline") ?? "";
     const message = form.get("message") ?? "";
 
     const body = `
 ${t("contact.name")}: ${name}
 ${t("contact.email")}: ${mail}
-${t("contact.timeline")}: ${timeline}
 
 ${t("contact.message")}:
 ${message}
@@ -110,8 +108,9 @@ ${message}
               name="name"
               type="text"
               placeholder={t("contact.name")}
-              className={`${inputBaseClass} w-full ${errors.name ? "border-red-500/70" : "border-border/60"
-                }`}
+              className={`${inputBaseClass} w-full ${
+                errors.name ? "border-red-500/70" : "border-border/60"
+              }`}
             />
             {errors.name && (
               <p className="text-xs text-red-500">{errors.name}</p>
@@ -124,28 +123,21 @@ ${message}
               name="email"
               type="email"
               placeholder={t("contact.email")}
-              className={`${inputBaseClass} w-full ${errors.email ? "border-red-500/70" : "border-border/60"
-                }`}
+              className={`${inputBaseClass} w-full ${
+                errors.email ? "border-red-500/70" : "border-border/60"
+              }`}
             />
             {errors.email && (
               <p className="text-xs text-red-500">{errors.email}</p>
             )}
           </div>
 
-          {/* Konu */}
+          {/* Konu - tam genişlik */}
           <input
             name="subject"
             type="text"
             placeholder={t("contact.subject")}
-            className={`${inputBaseClass} border-border/60`}
-          />
-
-          {/* Timeline */}
-          <input
-            name="timeline"
-            type="text"
-            placeholder={t("contact.timeline")}
-            className={`${inputBaseClass} border-border/60`}
+            className={`${inputBaseClass} border-border/60 md:col-span-2`}
           />
 
           {/* Mesaj */}
@@ -153,8 +145,9 @@ ${message}
             <textarea
               name="message"
               placeholder={t("contact.projectDetails")}
-              className={`${inputBaseClass} w-full min-h-[140px] resize-none ${errors.message ? "border-red-500/70" : "border-border/60"
-                }`}
+              className={`${inputBaseClass} w-full min-h-[140px] resize-none ${
+                errors.message ? "border-red-500/70" : "border-border/60"
+              }`}
             />
             {errors.message && (
               <p className="text-xs text-red-500">{errors.message}</p>

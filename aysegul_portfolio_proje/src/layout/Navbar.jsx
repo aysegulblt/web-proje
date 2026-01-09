@@ -37,7 +37,7 @@ export default function Navbar() {
               to={link.to}
               className={({ isActive }) =>
                 [
-                  "transition-colors",
+                  "transition-colors cursor-pointer select-none",
                   isActive
                     ? "text-[#91BADB]"
                     : "text-foreground/70 hover:text-[#91BADB]",
@@ -89,7 +89,7 @@ export default function Navbar() {
               onClick={closeMenu}
               className={({ isActive }) =>
                 [
-                  "px-4 py-3 rounded-lg text-sm transition-colors",
+                  "px-4 py-3 rounded-lg text-sm transition-colors cursor-pointer select-none",
                   isActive
                     ? "bg-[#91BADB]/20 text-[#91BADB]"
                     : "text-foreground/70 hover:bg-card/80 hover:text-[#91BADB]",
