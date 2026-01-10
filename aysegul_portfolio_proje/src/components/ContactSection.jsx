@@ -1,4 +1,3 @@
-// src/components/ContactSection.jsx
 import { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import profile from "../data/profile.json";
@@ -48,7 +47,7 @@ const ContactSection = () => {
     setTimeout(() => setSubmitted(false), 4000);
 
     // Formu temizle
-    e.target.reset();
+    e.currentTarget.reset();
   };
 
   const inputBaseClass = `bg-transparent border rounded-lg px-4 py-3 text-sm outline-none
