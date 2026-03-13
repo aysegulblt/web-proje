@@ -29,7 +29,7 @@ function useCountUp(end, duration = 2000) {
 
 export default function StatsBar({ stats }) {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-12">
             {stats.map((stat, index) => (
                 <StatItem key={index} {...stat} delay={index * 100} />
             ))}

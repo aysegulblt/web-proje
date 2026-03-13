@@ -22,7 +22,6 @@
     "hireMe": "Bana Ulaş",
     "location": "Konum:",
     "stats": {
-      "experience": "Yıl Deneyim",
       "projects": "Tamamlanan Proje",
       "skills": "Yetenek",
       "activities": "Kulüp & Etkinlik"
@@ -68,7 +67,7 @@
       ]
     },
     "experience": {
-      "title": "Deneyim & Projeler",
+      "title": "Akademik Projeler",
       "items": [
         {
           "role": "Proje Geliştirici",

@@ -29,12 +29,13 @@ const ContactSection = () => {
     return newErrors;
   };
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    const form = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     // Validasyon
-    const validationErrors = validateForm(form);
+    const validationErrors = validateForm(formData);
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
@@ -42,12 +43,36 @@ const ContactSection = () => {
 
     setErrors({});
 
-    // Başarı mesajı göster
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
+    try {
+      // Formspree'ye gönder (buradaki id'yi kendi formspree id'nizle değiştirebilirsiniz)
+      // Şimdilik formspree.io/f/myyrwvqq gibi bir test endpoint'i kullanabilir veya
+      // kendi mail adresinizle formspree'den bir endpoint alabilirsiniz.
+      // Eger mail gitmesini isterseniz aysegulbuluts53@gmail.com icin bir endpoint oluşturmalısınız.
+      // Geçici olarak mock basarı islemi yapiyoruz, tam entegrasyon icin
+      // formspree den alinacak url buraya eklenebilir: https://formspree.io/f/YOUR_ENDPOINT
 
-    // Formu temizle
-    e.currentTarget.reset();
+      const response = await fetch("https://formspree.io/f/xeerzgay", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        // Başarı mesajı göster
+        setSubmitted(true);
+        setTimeout(() => setSubmitted(false), 4000);
+        form.reset();
+      } else {
+        // Hata durumu
+        setErrors({
+          message: "Gönderim başarısız oldu. Lütfen tekrar deneyin.",
+        });
+      }
+    } catch (error) {
+      setErrors({ message: "Bir hata oluştu. Lütfen tekrar deneyin." });
+    }
   };
 
   const inputBaseClass = `bg-transparent border rounded-lg px-4 py-3 text-sm outline-none

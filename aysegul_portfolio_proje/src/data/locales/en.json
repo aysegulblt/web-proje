@@ -22,7 +22,6 @@
     "hireMe": "Contact Me",
     "location": "Location:",
     "stats": {
-      "experience": "Years Experience",
       "projects": "Projects Completed",
       "skills": "Skills",
       "activities": "Clubs & Activities"
@@ -68,7 +67,7 @@
       ]
     },
     "experience": {
-      "title": "Experience & Projects",
+      "title": "Academic Projects",
       "items": [
         {
           "role": "Project Developer",
