@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profile from "../data/profile.json";
 import { useLanguage } from "../context/LanguageContext";
 import { useTypingAnimation } from "../hooks/useTypingAnimation";
@@ -59,13 +60,13 @@ export default function HeroSection() {
               {t("hero.downloadCV")}
             </a>
 
-            <a
-              href="/iletisim"
+            <Link
+              to="/iletisim"
               className="cosmic-button bg-transparent border-2 border-[#91BADB] text-[#91BADB] hover:bg-[#91BADB] hover:text-slate-900 inline-flex items-center gap-2"
             >
               {t("hero.hireMe")}
               <ArrowRight className="w-4 h-4" />
-            </a>
+            </Link>
 
             {/* Tech Logo Slider */}
             <TechSlider />
