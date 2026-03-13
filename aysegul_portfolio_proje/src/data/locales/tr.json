@@ -22,7 +22,6 @@
     "hireMe": "Bana Ulaş",
     "location": "Konum:",
     "stats": {
-      "experience": "Yıl Deneyim",
       "projects": "Tamamlanan Proje",
       "skills": "Yetenek",
       "activities": "Kulüp & Etkinlik"
@@ -68,7 +67,7 @@
       ]
     },
     "experience": {
-      "title": "Deneyim & Projeler",
+      "title": "Akademik Projeler",
       "items": [
         {
           "role": "Proje Geliştirici",
@@ -147,18 +146,14 @@
   },
   "contact": {
     "title": "Benimle İletişime Geç",
-    "subtitle": "Staj fırsatları, iş birlikleri veya sadece tanışmak için bana mesaj gönderebilirsin. Mesajını gönderince e-posta uygulaman açılacak.",
+    "subtitle": "Staj fırsatları, iş birlikleri veya sadece tanışmak için bana mesaj gönderebilirsin.",
     "name": "İsim",
     "email": "E-posta",
     "subject": "Konu",
-    "timeline": "Zaman çizelgesi",
     "projectDetails": "Proje detayları...",
     "message": "Mesaj",
     "send": "Gönder",
     "emailLabel": "E-posta:",
-    "phoneLabel": "Telefon:",
-    "addressLabel": "Konum:",
-    "portfolioContact": "Portfolyo İletişim",
     "successMessage": "Mesajınız başarıyla gönderildi!",
     "requiredField": "Bu alan zorunludur",
     "invalidEmail": "Geçerli bir e-posta adresi giriniz"

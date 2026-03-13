@@ -22,7 +22,6 @@
     "hireMe": "Contact Me",
     "location": "Location:",
     "stats": {
-      "experience": "Years Experience",
       "projects": "Projects Completed",
       "skills": "Skills",
       "activities": "Clubs & Activities"
@@ -68,7 +67,7 @@
       ]
     },
     "experience": {
-      "title": "Experience & Projects",
+      "title": "Academic Projects",
       "items": [
         {
           "role": "Project Developer",
@@ -147,18 +146,14 @@
   },
   "contact": {
     "title": "Contact Me",
-    "subtitle": "Feel free to reach out for internships, collaborations, or just to say hi. When you submit, your email app will open.",
+    "subtitle": "Feel free to reach out for internships, collaborations, or just to say hi.",
     "name": "Name",
     "email": "Email",
     "subject": "Subject",
-    "timeline": "Timeline",
     "projectDetails": "Project details...",
     "message": "Message",
     "send": "Send",
     "emailLabel": "Email:",
-    "phoneLabel": "Phone:",
-    "addressLabel": "Location:",
-    "portfolioContact": "Portfolio Contact",
     "successMessage": "Your message has been sent successfully!",
     "requiredField": "This field is required",
     "invalidEmail": "Please enter a valid email address"

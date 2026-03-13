@@ -7,6 +7,7 @@ import About from "../pages/About";
 import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
+import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
   return (
@@ -19,6 +20,7 @@ export default function AppRouter() {
           <Route path="/yetenekler" element={<Skills />} />
           <Route path="/projeler" element={<Projects />} />
           <Route path="/iletisim" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

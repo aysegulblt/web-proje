@@ -35,13 +35,16 @@ export default function Skills() {
       {/* Başlık */}
       <div className="text-center mb-10 animate-fade-in">
         <h2 className="text-3xl font-semibold">{t("skills.title")}</h2>
-        <p className="mt-3 text-sm text-foreground/70">{t("skills.subtitle")}</p>
+        <p className="mt-3 text-sm text-foreground/70">
+          {t("skills.subtitle")}
+        </p>
       </div>
 
-      {/* Progress Bars with Category Groups */}
+      {/* Progress Bars ile kategori Grupları */}
       <div className="space-y-10 animate-fade-in">
         {skillsData.map((group) => {
-          const groupTitle = lang === "tr" ? group.categoryTr : group.categoryEn;
+          const groupTitle =
+            lang === "tr" ? group.categoryTr : group.categoryEn;
 
           return (
             <div key={groupTitle} className="space-y-4">

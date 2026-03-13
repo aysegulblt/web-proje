@@ -19,7 +19,6 @@ export default function HeroSection() {
 
   // Stats verileri - Gerçek bilgiler
   const stats = [
-    { value: 3, label: t("hero.stats.experience"), suffix: "+" },
     { value: 6, label: t("hero.stats.projects"), suffix: "" },
     { value: 11, label: t("hero.stats.skills"), suffix: "" },
     { value: 5, label: t("hero.stats.activities"), suffix: "+" },
